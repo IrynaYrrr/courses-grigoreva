@@ -1,10 +1,12 @@
+import React from 'react'
 import "./contact.scss"
 
-export default function Contact() {
+const Contact = () => {
     return (
-        <div className="contact">
-            
+        <div className="contact" id="contact">
+
         </div>
     )
 }
 
+export default Contact

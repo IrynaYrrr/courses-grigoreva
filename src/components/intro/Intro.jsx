@@ -1,9 +1,12 @@
+import React from 'react'
 import "./intro.scss"
 
-export default function Intro() {
+const Intro = () => {
     return (
-        <div className="intro">
-            
+        <div className="intro" id="intro">
+
         </div>
     )
 }
+
+export default Intro;

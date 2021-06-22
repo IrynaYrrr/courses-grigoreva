@@ -1,10 +1,12 @@
+import React from 'react'
 import "./works.scss"
 
-export default function Works() {
+const Works = () => {
     return (
-        <div className="works">
-            
+        <div className="works" id="works">
+
         </div>
     )
 }
 
+export default Works
