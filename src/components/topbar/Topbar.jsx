@@ -1,24 +1,30 @@
 import React from "react"
 import "./topbar.scss"
-import {Person, Mail} from "@material-ui/icons"
+import PhoneIcon from '@material-ui/icons/Phone';
+import InstagramIcon from "@material-ui/icons/Instagram";
 
-const Topbar = ({menuOpen, setMenuOpen}) => {
+
+const Topbar = ({ menuOpen, setMenuOpen }) => {
     return (
         <div className={"topbar " + (menuOpen && "active")}>
             <div className="wrapper">
                 <div className="left">
-                    <a href="#intro" className="logo">genius.</a>
+                    <a href="#intro" className="logo">Центр обучения "Григорьева"</a>
                     <div className="itemContainer">
-                        <Person className="icon"/>
-                        <span> + 38067274565</span>
+                        <PhoneIcon className="icon" />
+                        <span>
+                            <a href="tel:380679143119"> +38(067)914-31-19</a>
+                        </span>
                     </div>
                     <div className="itemContainer">
-                        <Mail className="icon"/>
-                        <span>irynajoss@gmail.com</span>
+                        <InstagramIcon className="icon" />
+                        <span>
+                            <a href="https://www.instagram.com/courses_grigoreva_lp/">courses_grigoreva_lp</a>
+                        </span>
                     </div>
                 </div>
                 <div className="right">
-                    <div className="hamburger" onClick={ () => setMenuOpen (!menuOpen) }>
+                    <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
                         <span className="line1"></span>
                         <span className="line2"></span>
                         <span className="line3"></span>

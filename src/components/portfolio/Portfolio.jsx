@@ -16,23 +16,23 @@ const Portfolio = () => {
     const list = [
         {
             id: "featured",
-            title: "Featured",
+            title: "Курс «Бухгалтерский учёт. Налогообложение»",
         },
         {
             id: "web",
-            title: "Web App",
+            title: "Курс «Частный предприниматель»",
         },
         {
             id: "mobile",
-            title: "Mobile App",
+            title: "Курс «Специалист отдела кадров»",
         },
         {
             id: "design",
-            title: "Design",
+            title: "Семинар «Техника безопасности и охрана труда»",
         },
         {
             id: "content",
-            title: "Content",
+            title: "Курс «Повышение квалификации бухгалтера»",
         },
     ];
 
@@ -60,7 +60,7 @@ const Portfolio = () => {
     }, [selected])
     return (
         <div className="portfolio" id="portfolio">
-            <h1>Portfolio</h1>
+            <h1>Регулярный набор на курс</h1>
             <ul>
                 {list.map((item) => (
                     <PortfolioList
@@ -73,8 +73,6 @@ const Portfolio = () => {
             </ul>
             <div className="container">
                 {data.map(d => (
-
-
                     <div className="item">
                         <img
                             src={d.img}

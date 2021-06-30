@@ -12,23 +12,25 @@ const Intro = () => {
             showCursor: true,
             backDelay: 1500,
             backSpeed: 60,
-            strings: ['Developer', 'Designer', 'Content Creator'],
+            strings: ['проходить собеседования','вести ФЛП', 'сдавать отчётность', 'не бояться проверок', 'расставлять приоритеты'],
         });
     }, [])
     return (
         <div className="intro" id="intro">
             <div className="left">
                 <div className="imgContainer">
-                    <img src="assets/man.png" alt="" />
+                    <img src="assets/teacher.png" alt="" />
                 </div>
             </div>
             <div className="right">
                 <div className="wrapper">
-                    <h2>Hi There, I'm</h2>
-                    <h1> Iryna Joss</h1>
-                    <h3>
-                        Freelance <span ref={textRef}></span>
-                    </h3>
+                    <h2>Григорьева Людмила Петровна</h2>
+                    <h4>Преподаватель Центра обучения «Григорьева»</h4>
+                    <br/>
+                    <h3> Научу Вас:
+                    <br/>
+                    <br/>
+                    <span ref={textRef}></span></h3>
                 </div>
                 <a href="#portfolio">
                     <img src="assets/down.png" alt="" />

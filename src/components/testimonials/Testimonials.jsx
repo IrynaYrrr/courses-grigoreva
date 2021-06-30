@@ -6,13 +6,13 @@ const Testimonials = () => {
     const data = [
         {
             id: 1,
-            name: "Tom Durden",
-            title: "Senior Developer",
+            name: "Екатерина",
+            title: "Выпускница",
             img:
-                "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+                "assets/katyaroshupko.jpg",
             icon: "assets/twitter.png",
             desc:
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
+                "Людмила Петровна - профессионал своего дела, прекрасный педагог и консультант! Спасибо Вам за отзывчивость и помощь.",
         },
         {
             id: 2,

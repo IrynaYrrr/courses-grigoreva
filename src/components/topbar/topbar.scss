@@ -8,7 +8,7 @@
   position: fixed;
   top: 0;
   z-index: 3;
-  transition:  all 1s ease;
+  transition: all 1s ease;
 
   .wrapper {
     padding: 10px 30px;
@@ -33,17 +33,17 @@
         align-items: center;
         margin-left: 30px;
 
-        @include mobile{
+        @include mobile {
           display: none;
         }
 
         .icon {
           font-size: 18px;
-          margin-right: 5px;
+          margin-right: 7px;
         }
 
         span {
-          font-size: 15px;
+          font-size: 18px;
           font-weight: 500;
         }
       }
@@ -67,6 +67,12 @@
         }
       }
     }
+
+    a {
+      text-decoration: none;
+      color: $mainColor;
+      transition: all 1s ease;
+    }
   }
 
   &.active {
@@ -87,6 +93,11 @@
           transform: rotate(-45deg);
         }
       }
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
     }
   }
 }
