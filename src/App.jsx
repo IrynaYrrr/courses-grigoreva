@@ -7,6 +7,7 @@ import Works from './components/works/Works'
 import './app.scss'
 import { useState } from 'react';
 import Menu from './components/menu/Menu'
+import Contactform from './components/contactform/Contactform'
 
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
                 <Works />
                 <Testimonials />
                 <Contact />
+                <Contactform />
             </div>
         </div>
     )
