@@ -26,6 +26,10 @@
         text-decoration: none;
         color: inherit;
         margin-right: 40px;
+
+        @include mobile {
+          font-size: 20px;
+        }
       }
 
       .itemContainer {
@@ -34,7 +38,7 @@
         margin-left: 30px;
 
         @include mobile {
-          display: none;
+          //display: none;
         }
 
         .icon {
