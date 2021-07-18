@@ -108,7 +108,8 @@ const Contactform = () => {
                     <MenuItem value={10}>"Бухгалтерский учёт.Налогообложение"</MenuItem>
                     <MenuItem value={20}>"Специалист отдела кадров"</MenuItem>
                     <MenuItem value={30}>"Физическое лицо-предприниматель"</MenuItem>
-                    <MenuItem value={40}>4-х часовой Ликбез по технике безопасности и охране труда </MenuItem>
+                    <MenuItem value={40}>Семинар (31.07.2021)</MenuItem>
+                    <MenuItem value={50}>4-х часовой Ликбез по технике безопасности и охране труда </MenuItem>
                   </Select>
                 </FormControl>
 

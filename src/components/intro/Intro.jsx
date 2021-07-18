@@ -19,12 +19,12 @@ const Intro = () => {
         <div className="intro" id="intro">
             <div className="left">
                 <div className="imgContainer">
-                    <img src="assets/teacher.png" alt="" />
+                    <img src="assets/var2.jpg" alt="" />
                 </div>
             </div>
             <div className="right">
                 <div className="wrapper">
-                    <h2>Григорьева Людмила Петровна</h2>
+                    <h2>Людмила Петровна</h2>
                     <h4>Преподаватель Центра обучения «Григорьева»</h4>
                     <br/>
                     <h3> Научу Вас:

@@ -19,7 +19,7 @@ const Topbar = ({ menuOpen, setMenuOpen }) => {
                     <div className="itemContainer">
                         <InstagramIcon className="icon" />
                         <span>
-                            <a href="https://www.instagram.com/courses_grigoreva_lp/">courses_grigoreva_lp</a>
+                            <a href="https://www.instagram.com/grigoreva__lp/">grigoreva__lp</a>
                         </span>
                     </div>
                 </div>
