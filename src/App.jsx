@@ -7,6 +7,7 @@ import './app.scss'
 import { useState } from 'react';
 import Menu from './components/menu/Menu'
 import Contactform from './components/contactform/Contactform'
+import Schedule from './components/schedule/Schedule'
 
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
                 <Works />
                 <Testimonials />
                 <Contactform />
+                <Schedule />
             </div>
         </div>
     )
