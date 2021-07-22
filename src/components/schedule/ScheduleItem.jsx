@@ -1,4 +1,4 @@
-import React from 'react';
+import { useState } from 'react';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
@@ -17,6 +17,8 @@ import SchoolIcon from '@material-ui/icons/School';
 import GroupIcon from '@material-ui/icons/Group';
 import EventIcon from '@material-ui/icons/Event';
 import LoyaltyIcon from '@material-ui/icons/Loyalty';
+import ScheduleProgram from './ScheduleProgram';
+import ScheduleOrder from './ScheduleOrder';
 
 const useStyles = makeStyles({
     card: {
@@ -67,62 +69,69 @@ const useStyles = makeStyles({
         width: "100%",
         backgroundColor: "#9c27b0",
         color: "white",
-        '&:hover': {backgroundColor: "#c27dce"},
+        '&:hover': { backgroundColor: "#c27dce" },
     },
     card1_button2: {
         width: "100%",
         backgroundColor: "#4a126b",
         color: "white",
-        height:"45px",
-        '&:hover': {backgroundColor: "#774b91"},
+        height: "45px",
+        '&:hover': { backgroundColor: "#774b91" },
     },
     card2_button1: {
         width: "100%",
         backgroundColor: "#33bfff",
         color: "white",
-        '&:hover': {backgroundColor: "#7ccef3"},
+        '&:hover': { backgroundColor: "#7ccef3" },
     },
     card2_button2: {
         width: "100%",
         backgroundColor: "#115293",
         color: "white",
-        height:"45px",
-        '&:hover': {backgroundColor: "#3c6fa2"},
+        height: "45px",
+        '&:hover': { backgroundColor: "#3c6fa2" },
     },
     card3_button1: {
         width: "100%",
         backgroundColor: "#ffcf33",
         color: "white",
-        '&:hover': {backgroundColor: "#efd068"},
+        '&:hover': { backgroundColor: "#efd068" },
     },
     card3_button2: {
         width: "100%",
         backgroundColor: "#f57c00",
         color: "white",
-        height:"45px",
-        '&:hover': {backgroundColor: "#ed9943"},
+        height: "45px",
+        '&:hover': { backgroundColor: "#ed9943" },
     },
     card4_button1: {
         width: "100%",
         backgroundColor: "#64dd17",
         color: "white",
-        '&:hover': {backgroundColor: "#96e961"},
+        '&:hover': { backgroundColor: "#96e961" },
     },
     card4_button2: {
         width: "100%",
         backgroundColor: "#469a10",
         color: "white",
-        height:"45px",
-        '&:hover': {backgroundColor: "#76b150"},
+        height: "45px",
+        '&:hover': { backgroundColor: "#76b150" },
     },
-
 });
 
 const ScheduleItem = (props) => {
-
     const classes = useStyles();
 
-    const bull = <span className={classes.bullet}>•</span>;
+    const [programOpen, setProgramOpen] = useState(false);
+    const [orderOpen, setOrderOpen] = useState(false);
+
+    const handleClickProgramOpen = () => {
+        setProgramOpen(true);
+    };
+
+    const handleClickOrderOpen = () => {
+        setOrderOpen(true);
+    };
 
     return (
         <Card className={classes.card}>
@@ -194,6 +203,7 @@ const ScheduleItem = (props) => {
             <CardActions>
                 <Button
                     className={classes[`${props.course?.classPrefix}_button1`]}
+                    onClick={handleClickProgramOpen}
                 >
                     {props.course?.program}
                 </Button>
@@ -202,10 +212,23 @@ const ScheduleItem = (props) => {
             <CardActions >
                 <Button variant="outlined"
                     className={classes[`${props.course?.classPrefix}_button2`]}
+                    onClick={handleClickOrderOpen}
                 >
                     {props.course?.order}
                 </Button>
             </CardActions>
+
+            <ScheduleProgram
+                programOpen={programOpen}
+                setProgramOpen={setProgramOpen}
+                name={props.course?.name}
+                courseProgram={props.course?.courseProgram}
+            />
+
+            <ScheduleOrder
+                orderOpen={orderOpen}
+                setOrderOpen={setOrderOpen}
+            />
 
         </Card>
     );
