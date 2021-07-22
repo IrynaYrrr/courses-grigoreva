@@ -31,7 +31,7 @@ const useStyles = makeStyles({
         backgroundColor: "#6d1b7b",
         color: "white",
         height: "100px",
-
+        marginBottom: "7px",
     },
     card2_toolbar1: {
         backgroundColor: "#33bfff",
@@ -41,6 +41,7 @@ const useStyles = makeStyles({
         backgroundColor: "#2196f3",
         color: "white",
         height: "100px",
+        marginBottom: "7px",
     },
     card3_toolbar1: {
         backgroundColor: "#ffcf33",
@@ -50,6 +51,7 @@ const useStyles = makeStyles({
         backgroundColor: "#fb8c00",
         color: "white",
         height: "100px",
+        marginBottom: "7px",
     },
     card4_toolbar1: {
         backgroundColor: "#64dd17",
@@ -59,46 +61,59 @@ const useStyles = makeStyles({
         backgroundColor: "#52b202",
         color: "white",
         height: "100px",
+        marginBottom: "7px",
     },
     card1_button1: {
         width: "100%",
         backgroundColor: "#9c27b0",
         color: "white",
+        '&:hover': {backgroundColor: "#c27dce"},
     },
     card1_button2: {
         width: "100%",
         backgroundColor: "#4a126b",
         color: "white",
+        height:"45px",
+        '&:hover': {backgroundColor: "#774b91"},
     },
     card2_button1: {
         width: "100%",
         backgroundColor: "#33bfff",
         color: "white",
+        '&:hover': {backgroundColor: "#7ccef3"},
     },
     card2_button2: {
         width: "100%",
         backgroundColor: "#115293",
         color: "white",
+        height:"45px",
+        '&:hover': {backgroundColor: "#3c6fa2"},
     },
     card3_button1: {
         width: "100%",
         backgroundColor: "#ffcf33",
         color: "white",
+        '&:hover': {backgroundColor: "#efd068"},
     },
     card3_button2: {
         width: "100%",
         backgroundColor: "#f57c00",
         color: "white",
+        height:"45px",
+        '&:hover': {backgroundColor: "#ed9943"},
     },
     card4_button1: {
         width: "100%",
         backgroundColor: "#64dd17",
         color: "white",
+        '&:hover': {backgroundColor: "#96e961"},
     },
     card4_button2: {
         width: "100%",
         backgroundColor: "#469a10",
         color: "white",
+        height:"45px",
+        '&:hover': {backgroundColor: "#76b150"},
     },
 
 });
@@ -131,7 +146,6 @@ const ScheduleItem = (props) => {
                 <ListItemText primary={`В группе - ${props.course?.group}`} />
             </ListItem>
 
-            <Divider variant="inset" component="li" />
             <ListItem>
                 <ListItemAvatar>
                     <Avatar>
@@ -141,7 +155,6 @@ const ScheduleItem = (props) => {
                 <ListItemText primary={`Индивидуально - ${props.course?.indiv}`} />
             </ListItem>
 
-            <Divider variant="inset" component="li" />
             <ListItem>
                 <ListItemAvatar>
                     <Avatar>
@@ -151,7 +164,6 @@ const ScheduleItem = (props) => {
                 <ListItemText primary={props.course?.month} />
             </ListItem>
 
-            <Divider variant="inset" component="li" />
             <ListItem>
                 <ListItemAvatar>
                     <Avatar>
@@ -161,7 +173,6 @@ const ScheduleItem = (props) => {
                 <ListItemText primary={props.course?.hours} />
             </ListItem>
 
-            <Divider variant="inset" component="li" />
             <ListItem>
                 <ListItemAvatar>
                     <Avatar>
@@ -171,7 +182,6 @@ const ScheduleItem = (props) => {
                 <ListItemText primary={props.course?.discount} />
             </ListItem>
 
-            <Divider variant="inset" component="li" />
             <ListItem>
                 <ListItemAvatar>
                     <Avatar>
@@ -180,9 +190,6 @@ const ScheduleItem = (props) => {
                 </ListItemAvatar>
                 <ListItemText primary="Сертификат" />
             </ListItem>
-
-            <CardContent>
-            </CardContent>
 
             <CardActions>
                 <Button
