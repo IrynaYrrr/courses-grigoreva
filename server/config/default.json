@@ -1,0 +1,15 @@
+{
+    "dev": false,
+    "server": {
+        "port": 5000
+    },
+    "mongo": {
+        "url": ""
+    },
+    "telegram": {
+        "botName": "",
+        "token": "",
+        "channelId": "",
+        "channelLink": ""
+    }
+}
