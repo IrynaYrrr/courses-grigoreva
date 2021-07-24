@@ -1,28 +1,28 @@
+import { useState } from 'react';
 import Intro from './components/intro/Intro'
 import Portfolio from './components/portfolio/Portfolio'
 import Testimonials from './components/testimonials/Testimonials'
 import Topbar from './components/topbar/Topbar'
 import Works from './components/works/Works'
-import './app.scss'
-import { useState } from 'react';
 import Menu from './components/menu/Menu'
-import Contactform from './components/contactform/Contactform'
+import Contacts from './components/contacts/Contacts'
 import Schedule from './components/schedule/Schedule'
-
+import './app.scss'
 
 const App = () => {
-    const [menuOpen, setMenuOpen] = useState(true)
+    const [menuOpen, setMenuOpen] = useState(true);
+
     return (
         <div className="app">
             <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
             <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
             <div className="sections">
                 <Intro />
-                <Portfolio />
+                <Schedule />
                 <Works />
                 <Testimonials />
-                <Contactform />
-                <Schedule />
+                <Contacts />
+                <Portfolio />
             </div>
         </div>
     )
