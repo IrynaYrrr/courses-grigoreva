@@ -19,6 +19,7 @@ import EventIcon from '@material-ui/icons/Event';
 import LoyaltyIcon from '@material-ui/icons/Loyalty';
 import ScheduleProgram from './ScheduleProgram';
 import ScheduleOrder from './ScheduleOrder';
+import Notification from './Notification';
 
 const useStyles = makeStyles({
     card: {
@@ -124,6 +125,7 @@ const ScheduleItem = (props) => {
 
     const [programOpen, setProgramOpen] = useState(false);
     const [orderOpen, setOrderOpen] = useState(false);
+    const [notificationOpen, setNotificationOpen] = useState(false);
 
     const handleClickProgramOpen = () => {
         setProgramOpen(true);
@@ -228,8 +230,12 @@ const ScheduleItem = (props) => {
             <ScheduleOrder
                 orderOpen={orderOpen}
                 setOrderOpen={setOrderOpen}
+                setNotificationOpen={setNotificationOpen}
+                courses={props.courses}
+                course={props.course}
             />
 
+            <Notification open={notificationOpen} setOpen={setNotificationOpen} />
         </Card>
     );
 };
