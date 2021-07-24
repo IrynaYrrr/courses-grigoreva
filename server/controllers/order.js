@@ -6,8 +6,13 @@ const post = async (req, res, next) => {
         const { selectedCourse, name, phone, message } = req.body;
 
         const order = new Order({ selectedCourse, name, phone, message });
+        await order.save();
 
-        console.log(order._doc);
+        await tg.sendMessage(JSON.stringify(
+            { selectedCourse, name, phone, message },
+            null,
+            ' '
+        ));
 
         res.json({ id: 0 });
     }
