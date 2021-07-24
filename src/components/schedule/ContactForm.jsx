@@ -12,6 +12,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 import MuiPhoneInput from 'material-ui-phone-number';
+import { useHttp } from '../../hooks/useHttp';
 
 const useStyles = makeStyles({
     card: {
@@ -59,11 +60,17 @@ const ContactForm = ({ handleClose, setNotificationOpen, courses, course }) => {
     const [phone, setPhone] = useState('');
     const [message, setMessage] = useState('');
 
-    const handleSubmit = (e) => {
+    const { request } = useHttp();
+
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log({ selectedCourse, name, phone, message });
-        setNotificationOpen(true);
-        handleClose();
+        try {
+            const data = await request('/api/order', 'POST', { selectedCourse, name, phone, message });
+            setNotificationOpen(true);
+            handleClose();
+        } catch (err) {
+            console.error(err);
+        }
     };
 
     return (
