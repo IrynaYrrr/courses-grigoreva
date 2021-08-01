@@ -9,7 +9,7 @@ const Topbar = ({ menuOpen, setMenuOpen }) => {
         <div className={"topbar " + (menuOpen && "active")}>
             <div className="wrapper">
                 <div className="left">
-                    <a href="#intro" className="logo">Центр обучения "Григорьева"</a>
+                    <a href="#intro" className="logo">«Центр обучения Григорьева»</a>
                     <div className="itemContainer">
                         <PhoneIcon className="icon" />
                         <span>
