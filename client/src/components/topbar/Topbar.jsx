@@ -17,9 +17,9 @@ const Topbar = ({ menuOpen, setMenuOpen }) => {
                         </span>
                     </div>
                     <div className="itemContainer">
-                        <InstagramIcon className="icon" />
+                        <PhoneIcon className="icon" />
                         <span>
-                            <a href="https://www.instagram.com/grigoreva__lp/">grigoreva__lp</a>
+                            <a href="tel:380667854551"> +38(066)785-45-51</a>
                         </span>
                     </div>
                 </div>

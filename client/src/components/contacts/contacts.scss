@@ -23,6 +23,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    .icon {
+      font-size: 18px;
+      margin-right: 7px;
+    }
+
+    span {
+      font-size: 18px;
+      font-weight: 500;
+    }
   }
 }
 
