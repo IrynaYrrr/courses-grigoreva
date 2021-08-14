@@ -3,13 +3,16 @@
 .contactform {
   background-color: white;
   display: flex;
+  flex-direction: column;
 
   @include mobile {
-    flex-direction: column;
+    flex-direction: row;
   }
 
-  .left {
-    flex: 1;
+  .top {
+    flex: 2;
+    display: flex;
+    flex-direction: row;
     overflow: hidden;
 
     img {
@@ -17,21 +20,19 @@
     }
   }
 
-  .right {
+  .bottom {
     flex: 1;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 
-    .icon {
-      font-size: 18px;
-      margin-right: 7px;
+    @include mobile {
+      //display: none;
     }
 
-    span {
-      font-size: 18px;
-      font-weight: 500;
+    .icon {
+      font-size: 60px;
     }
   }
 }

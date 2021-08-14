@@ -25,7 +25,8 @@ const Works = () => {
     };
 
     return (
-        <div className="works" id="works">
+        <div className="works"
+             id="works">
             <div
                 className="slider"
                 style={{ transform: `translateX(-${currentSlide * 100}vw)` }}

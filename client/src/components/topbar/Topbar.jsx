@@ -1,7 +1,6 @@
 import React from "react"
 import "./topbar.scss"
 import PhoneIcon from '@material-ui/icons/Phone';
-import InstagramIcon from "@material-ui/icons/Instagram";
 
 
 const Topbar = ({ menuOpen, setMenuOpen }) => {
