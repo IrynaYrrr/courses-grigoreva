@@ -7,6 +7,7 @@ import MailIcon from '@material-ui/icons/Mail';
 import TelegramIcon from '@material-ui/icons/Telegram';
 import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 import ViberIcon from './ViberIcon';
+import { isMobile } from 'react-device-detect';
 import "./contacts.scss";
 
 const useStyles = makeStyles({
@@ -134,7 +135,7 @@ const Contacts = () => {
                 </Fab>
 
                 <Fab
-                    href="viber://chat?number=%2B380679143119"
+                    href={isMobile ? "viber://add?number=380679143119" : "viber://chat?number=+380679143119"}
                     target="_blank"
                     className={classes.viber}
                 >
