@@ -14,19 +14,24 @@ const Menu = ({ menuOpen, setMenuOpen }) => {
                 </li>
 
                 <li onClick={() => setMenuOpen(false)} >
-                    <a href="#works">Семинары</a>
+                    <a href="#seminars">Семинары</a>
                 </li>
 
 
                 <li onClick={() => setMenuOpen(false)} >
                     <a href="#testimonials">Отзывы</a>
                 </li>
-                <li onClick={() => setMenuOpen(false)} >
-                    <a href="#contactform">Контакты</a>
+
+                <li onClick={() => setMenuOpen(false)}>
+                    <a href="#comments">Комментарии</a>
                 </li>
 
                 <li onClick={() => setMenuOpen(false)}>
-                    <a href="#portfolio">Сертификат</a>
+                    <a href="#certificate">Сертификат</a>
+                </li>
+
+                <li onClick={() => setMenuOpen(false)} >
+                    <a href="#contactform">Контакты</a>
                 </li>
             </ul>
         </div>
