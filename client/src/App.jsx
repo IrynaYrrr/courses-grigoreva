@@ -1,13 +1,14 @@
+import './app.scss'
 import { useState } from 'react';
 import Intro from './components/intro/Intro'
-import Portfolio from './components/portfolio/Portfolio'
 import Testimonials from './components/testimonials/Testimonials'
 import Topbar from './components/topbar/Topbar'
-import Works from './components/works/Works'
 import Menu from './components/menu/Menu'
 import Contacts from './components/contacts/Contacts'
 import Schedule from './components/schedule/Schedule'
-import './app.scss'
+import Comments from './components/comments/Comments'
+import Certificate from './components/certificatee/Certificate';
+import Seminars from './components/seminars/Seminars';
 
 const App = () => {
     const [menuOpen, setMenuOpen] = useState(true);
@@ -19,10 +20,11 @@ const App = () => {
             <div className="sections">
                 <Intro />
                 <Schedule />
-                <Works />
+                <Seminars />
                 <Testimonials />
+                <Comments />
+                <Certificate />
                 <Contacts />
-                <Portfolio />
             </div>
         </div>
     )
