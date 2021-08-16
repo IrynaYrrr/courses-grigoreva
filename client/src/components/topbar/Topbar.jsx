@@ -8,6 +8,13 @@ const Topbar = ({ menuOpen, setMenuOpen }) => {
         <div className={"topbar " + (menuOpen && "active")}>
             <div className="wrapper">
                 <div className="left">
+                    <div className="logoimg">
+                        <img
+                            src="assets/logo.png"
+                            alt=""
+                            className="logotype"
+                        />
+                    </div>
                     <a href="#intro" className="logo">«Центр обучения Григорьева»</a>
                     <div className="itemContainer">
                         <PhoneIcon className="icon" />
