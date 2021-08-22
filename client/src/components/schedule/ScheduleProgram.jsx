@@ -4,9 +4,7 @@ import Button from '@material-ui/core/Button';
 import Dialog from '@material-ui/core/Dialog';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
-import CloseIcon from '@material-ui/icons/Close';
 import Slide from '@material-ui/core/Slide';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
@@ -14,7 +12,8 @@ import ListItemText from '@material-ui/core/ListItemText';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import Avatar from '@material-ui/core/Avatar';
 import Divider from '@material-ui/core/Divider';
-import ForwardIcon from '@material-ui/icons/Forward';
+import CheckCircleIcon from '@material-ui/icons/CheckCircle';
+
 
 const useStyles = makeStyles((theme) => ({
     appBar: {
@@ -36,7 +35,7 @@ const CourseProgramListItem = ({ name }) => (
         <ListItem>
             <ListItemAvatar>
                 <Avatar>
-                    <ForwardIcon />
+                    <CheckCircleIcon />
                 </Avatar>
             </ListItemAvatar>
             <ListItemText
