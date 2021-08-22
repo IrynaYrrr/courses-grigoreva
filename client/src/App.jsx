@@ -5,7 +5,7 @@ import Testimonials from './components/testimonials/Testimonials'
 import Topbar from './components/topbar/Topbar'
 import Menu from './components/menu/Menu'
 import Contacts from './components/contacts/Contacts'
-import Schedule from './components/schedule/Schedule'
+import {Schedule1, Schedule2, Schedule3} from './components/schedule/Schedule'
 import Comments from './components/comments/Comments'
 import Certificate from './components/certificatee/Certificate';
 import Seminars from './components/seminars/Seminars';
@@ -19,7 +19,9 @@ const App = () => {
             <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
             <div className="sections">
                 <Intro />
-                <Schedule />
+                <Schedule1 />
+                <Schedule2 />
+                <Schedule3 />
                 <Seminars />
                 <Testimonials />
                 <Comments />
