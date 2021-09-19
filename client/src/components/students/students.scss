@@ -1,12 +1,9 @@
 @import "../../global.scss";
 
-.testimonials {
-  // background-color: rgb(224, 67, 67);
-  // display: flex;
-  // flex-direction: column;
-  // align-items: center;
-  background-image: url("https://us.123rf.com/450wm/melpomen/melpomen1706/melpomen170600904/80534304-blank-vibrant-pastel-colored-split-tone-background.jpg?ver=6" );
+.students {
+  //background-image: url("https://us.123rf.com/450wm/melpomen/melpomen1706/melpomen170600904/80534304-blank-vibrant-pastel-colored-split-tone-background.jpg?ver=6" );
   background-repeat: no-repeat;
+  //background-color: burlywood;
   background-position: right;
   background-size: 100%;
   display: flex;
@@ -15,6 +12,7 @@
   justify-content: center;
   position: relative;
 
+
   @include mobile{
     justify-content: space-around;
   }
@@ -22,6 +20,7 @@
   h1 {
     font-size: 50px;
     margin-top: 30px;
+    overflow: hidden;
 
     @include mobile {
       font-size: 20px;
@@ -30,7 +29,7 @@
 
   .container {
     width: 100%;
-    height: 80%;
+    height: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,7 +47,7 @@
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      padding: 20px;
+      padding: 30px;
       transition: all 1s ease;
 
       @include mobile {
@@ -64,7 +63,7 @@
         @include mobile {
           width: 250px;
           height: 180px;
-          margin: 1;
+          margin: 1px;
         }
       }
 
@@ -78,16 +77,10 @@
         justify-content: center;
 
         img {
-          &.left,
-          &.right {
-            height: 25px;
-          }
           &.user {
-            height: 60px;
-            width: 60px;
-            border-radius: 50%;
+            height: 250px;
+            width: 200px;
             object-fit: cover;
-            margin: 0 30px;
 
             @include mobile {
               width: 30px;
@@ -99,8 +92,11 @@
 
       .center {
         padding: 10px;
+        height: auto;
         border-radius: 10px;
-        background-color: rgb(235, 225, 227);
+        background-color: rgb(255, 255, 255);
+        color: black;
+        white-space: pre-line;
 
         @include mobile {
           font-size: 12px;
@@ -123,7 +119,7 @@
         }
 
         h4 {
-          color: rgb(121, 115, 115);
+          color: rgb(160, 67, 235);
 
           @include mobile{
             font-size: 13px;

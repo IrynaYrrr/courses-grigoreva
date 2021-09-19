@@ -1,6 +1,6 @@
 @import "../../global.scss";
 
-.seminars {
+.reviews {
   //background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMuaLS30br-k4cuZeJTOJsrcjGQ7l3FXSPQzS6MRjLLXkI93paMdUqS_IWG8W1tXSYRJs&usqp=CAU" );
   background-repeat: no-repeat;
   //background-color: burlywood;
@@ -15,6 +15,8 @@
     height: 50px;
     position: absolute;
     cursor: pointer;
+    background-color: rgb(160, 67, 235);
+    border-radius: 40px;
 
     @include mobile {
       display: none;
@@ -31,7 +33,7 @@
   }
 
   .slider {
-    height: 600px;
+    height: 650px;
     display: flex;
     position: absolute;
     left: 0;
@@ -46,20 +48,21 @@
     .container {
       width: 100vw;
       display: flex;
+      flex: 1;
       align-items: center;
       justify-content: center;
       overflow: hidden;
 
       .item {
-        width: 400px;
-        height: auto;
-        background-color: white;
-        border-radius: 10px;
+        width: 320px;
+        height: 120%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 100px;
-
+        position: relative;
+        margin: 30px;
 
         @include mobile {
           width: 80%;
@@ -68,7 +71,6 @@
         }
 
         .left {
-          flex: 1;
           height: 100%;
           display: flex;
           align-items: center;
@@ -76,12 +78,23 @@
           overflow: hidden;
 
           img {
-            width: 400px;
+            height: 90%;
+          }
+        }
+
+        .center {
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          overflow: hidden;
+
+          img {
+            height: 90%;
           }
         }
 
         .right {
-          flex: 1;
           height: 100%;
           display: flex;
           align-items: center;
@@ -89,7 +102,7 @@
           overflow: hidden;
 
           img {
-            width: 400px;
+            height: 90%;
           }
         }
       }

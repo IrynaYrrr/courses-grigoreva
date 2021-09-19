@@ -7,7 +7,6 @@ import Filter3Icon from '@material-ui/icons/Filter3';
 import Filter4Icon from '@material-ui/icons/Filter4';
 import Filter5Icon from '@material-ui/icons/Filter5';
 import Filter6Icon from '@material-ui/icons/Filter6';
-import Filter7Icon from '@material-ui/icons/Filter7';
 
 const Certificate = () => {
 
@@ -35,7 +34,7 @@ const Certificate = () => {
                     <img
                         className="imgitem"
                         src="assets/certificate.png"
-                        alt=""
+                        alt="certificate"
                     />
                 </div>
             </div>

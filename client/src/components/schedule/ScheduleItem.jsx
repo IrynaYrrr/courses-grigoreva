@@ -17,6 +17,7 @@ import ScheduleProgram from './ScheduleProgram';
 import ScheduleOrder from './ScheduleOrder';
 import Notification from './Notification';
 import PersonIcon from '@material-ui/icons/Person';
+import EventIcon from '@material-ui/icons/Event';
 
 
 const useStyles = makeStyles({
@@ -58,6 +59,15 @@ const ScheduleItem = (props) => {
                     {props.course?.name}
                 </Typography>
             </Toolbar>
+
+            <ListItem>
+                <ListItemAvatar>
+                    <Avatar>
+                        <EventIcon />
+                    </Avatar>
+                </ListItemAvatar>
+                <ListItemText primary={`Старт - ${props.course?.start}`} />
+            </ListItem>
 
             <ListItem>
                 <ListItemAvatar>

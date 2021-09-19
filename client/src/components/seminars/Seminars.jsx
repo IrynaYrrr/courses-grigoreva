@@ -1,25 +1,20 @@
-import React from "react"
-import { useState } from "react";
-import "./seminars.scss";
+import React from 'react'
+import { useState } from 'react';
+import './seminars.scss';
 
 
 const Seminars = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
     const data = [
         {
-            id: "1",
-            imgSem: "./assets/VSseminarBuh.png",
-            imgProg: "./assets/VSprogramBuh.png",
-        },
-        {
-            id: "2",
-            imgSem: "./assets/VSseminarWork.png",
-            imgProg: "./assets/VSprogramWork.png",
-        },
+            id: '1',
+            imgOne: './assets/seminar1.png',
+            imgTwo: './assets/seminar2.png',
+        }
     ];
 
     const handleClick = (way) => {
-        way === "left"
+        way === 'left'
             ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2)
             : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
     };
@@ -34,27 +29,17 @@ const Seminars = () => {
                     <div className="container">
                         <div className="item">
                             <div className="left">
-                                <img src={d.imgSem} alt="" />
+                                <img src={d.imgOne} alt="" />
                             </div>
+                        </div>
+                        <div className="item">
                             <div className="right">
-                                <img src={d.imgProg} alt="" />
+                                <img src={d.imgTwo} alt="" />
                             </div>
                         </div>
                     </div>
                 ))}
             </div>
-            <img
-                src="assets/arrow.png"
-                className="arrow left"
-                alt=""
-                onClick={() => handleClick()}
-            />
-            <img
-                src="assets/arrow.png"
-                className="arrow right"
-                alt=""
-                onClick={() => handleClick()}
-            />
         </div>
     );
 }
