@@ -4,7 +4,6 @@
   display: flex;
   align-items: center;
   flex-direction: row;
-  //background-color: burlywood;
 
   .left {
     display: flex;
@@ -39,9 +38,15 @@
             font-size: 20px;
             font-weight: 500;
             margin-left: 30px;
+
+
           }
         }
       }
+    }
+
+    @include mobile {
+      zoom: 0.5;
     }
   }
 
@@ -54,11 +59,20 @@
     height: 100%;
 
     .imgcontainer {
+
       .imgitem {
         padding: 80px 20px 20px 20px;
         width: 650px;
         height: 500px;
       }
+
+      @include mobile{
+        zoom: 0.5;
+      }
     }
+  }
+
+  @include mobile {
+    flex-direction: column;
   }
 }

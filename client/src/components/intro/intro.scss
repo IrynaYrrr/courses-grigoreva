@@ -1,10 +1,9 @@
 @import "../../global.scss";
 
 .intro {
-  //background-color: burlywood;
   display: flex;
 
-  @include mobile{
+  @include mobile {
     flex-direction: column;
     align-items: center;
   }
@@ -24,15 +23,15 @@
       justify-content: center;
       float: right;
 
-      @include mobile{
+      @include mobile {
         align-items: flex-start;
       }
 
       img {
         height: 100%;
 
-        @include mobile{
-          height: 50%;
+        @include mobile {
+          height: 70%;
         }
       }
     }
@@ -50,7 +49,7 @@
       flex-direction: column;
       justify-content: center;
 
-      @include mobile{
+      @include mobile {
         padding-left: 0;
         align-items: center;
       }
@@ -59,18 +58,22 @@
         font-size: 15px;
         margin: 10px 0;
 
-        @include mobile{
-          font-size: 40px;
+        @include mobile {
+          font-size: 15px;
         }
       }
       h2 {
         font-size: 40px;
+
+        @include mobile{
+          font-size: 30px;
+        }
       }
       h3 {
         font-size: 30px;
 
-        @include mobile{
-          font-size: 20px;
+        @include mobile {
+          font-size: 25px;
         }
 
         span {
@@ -89,22 +92,6 @@
           100% {
             opacity: 0;
           }
-        }
-      }
-    }
-    a {
-      position: absolute;
-      bottom: 10px;
-      left: 40%;
-
-      img {
-        width: 30px;
-        animation: arrowBlink 2s infinite;
-      }
-
-      @keyframes arrowBlink {
-        100% {
-          opacity: 0;
         }
       }
     }

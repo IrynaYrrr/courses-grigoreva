@@ -2,7 +2,6 @@ import React from 'react'
 import { useState } from 'react';
 import './seminars.scss';
 
-
 const Seminars = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
     const data = [

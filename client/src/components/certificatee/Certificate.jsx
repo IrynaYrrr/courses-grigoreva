@@ -12,7 +12,6 @@ const Certificate = () => {
 
     return (
         <div className="certificate" id="certificate">
-
             <div className="left">
                 <span className="container">
                     <span className="items">
@@ -28,7 +27,6 @@ const Certificate = () => {
                     </span>
                 </span>
             </div>
-
             <div className="right">
                 <div className="imgcontainer">
                     <img
@@ -38,7 +36,6 @@ const Certificate = () => {
                     />
                 </div>
             </div>
-
         </div>
     )
 }

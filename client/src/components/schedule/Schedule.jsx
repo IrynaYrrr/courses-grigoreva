@@ -368,7 +368,7 @@ const courses = [
                     '&:hover': { backgroundColor: "#76b150" },
                 },
                 typography: {
-                    fontSize: '18px',
+                    fontSize: '17px',
                     fontWeight: 600,
                 },
             },
@@ -432,7 +432,7 @@ const courses = [
                     '&:hover': { backgroundColor: "#ed9943" },
                 },
                 typography: {
-                    fontSize: '18px',
+                    fontSize: '17px',
                     fontWeight: 600,
                 },
             },
@@ -496,7 +496,7 @@ const courses = [
                     '&:hover': { backgroundColor: "#76b150" },
                 },
                 typography: {
-                    fontSize: '18px',
+                    fontSize: '17px',
                     fontWeight: 600,
                 },
             },
@@ -556,7 +556,7 @@ const courses = [
                     '&:hover': { backgroundColor: "#ed9943" },
                 },
                 typography: {
-                    fontSize: '18px',
+                    fontSize: '17px',
                     fontWeight: 600,
                 },
             },
@@ -842,10 +842,7 @@ const Schedule1 = () => {
     const classes = useStyles();
 
     return (
-        <div
-            className="schedule"
-            id="schedule"
-        >
+        <div className="schedule" id="schedule">
             <Container
                 maxWidth="lg"
                 className={classes.container}>

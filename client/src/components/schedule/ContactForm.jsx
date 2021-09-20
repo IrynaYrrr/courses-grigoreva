@@ -4,8 +4,6 @@ import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
-import Typography from "@material-ui/core/Typography";
-import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
 import InputLabel from '@material-ui/core/InputLabel';
 import MenuItem from '@material-ui/core/MenuItem';
@@ -16,8 +14,6 @@ import { useHttp } from '../../hooks/useHttp';
 
 const useStyles = makeStyles({
     card: {
-        // margin: '20px',
-        // backgroundColor: '#f2f2f2',
         borderRadius: '20px',
     },
     form: {
@@ -79,11 +75,6 @@ const ContactForm = ({ handleClose, setNotificationOpen, courses, course }) => {
 
         <Card className={classes.card}>
             <CardContent>
-
-                {/* <Box display="flex" justifyContent="center">
-          <Typography variant="h5">Записаться на курс</Typography>
-        </Box> */}
-
                 <form
                     className={classes.form}
                     onSubmit={handleSubmit}
@@ -156,7 +147,6 @@ const ContactForm = ({ handleClose, setNotificationOpen, courses, course }) => {
 
             </CardContent>
         </Card>
-        // </Container>
     );
 }
 

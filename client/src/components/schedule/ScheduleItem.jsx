@@ -24,6 +24,9 @@ const useStyles = makeStyles({
     card: {
         minWidth: 280,
         maxWidth: 290,
+        '@media (max-width: 768px)': {
+            marginLeft: 25,
+        }
     },
     toolbar1: props => props.course.makeStyles.toolbar1,
     toolbar2: props => props.course.makeStyles.toolbar2,
@@ -123,10 +126,10 @@ const ScheduleItem = (props) => {
                 </Button>
             </CardActions>
 
-            <CardActions >
+            <CardActions>
                 <Button variant="outlined"
-                    className={classes.button2}
-                    onClick={handleClickOrderOpen}
+                        className={classes.button2}
+                        onClick={handleClickOrderOpen}
                 >
                     {props.course?.order}
                 </Button>
