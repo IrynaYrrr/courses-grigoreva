@@ -20,8 +20,8 @@ const App = () => {
             <div className="sections">
                 <Intro />
                 <Schedule1 />
-                <Schedule2 />
-                <Schedule3 />
+                {/*<Schedule2 />*/}
+                {/*<Schedule3 />*/}
                 <Seminars />
                 <Certificate />
                 <Students />

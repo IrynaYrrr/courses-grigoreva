@@ -7,7 +7,7 @@
         display: none;
     }
 
-    .sections{
+    .sections {
         width: 100%;
         height: calc(100vh - 50px);
         background-color: lightcyan;
@@ -26,7 +26,7 @@
         }
 
         @include mobile {
-            top: 170px;
+            top: 100px;
             height: calc(100vh - 170px);
         }
     }

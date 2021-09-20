@@ -26,16 +26,14 @@
         .logotype {
           width: 70px;
           height: 70px;
-          // margin-left: 10px;
 
           @include mobile {
             margin-left: 40px;
-            font-size: 20px;
           }
         }
 
         @include mobile {
-          font-size: 20px;
+            display: none;
         }
       }
 
@@ -136,6 +134,6 @@
   }
 
   @include mobile {
-    height: 170px;
+    height: 100px;
   }
 }
