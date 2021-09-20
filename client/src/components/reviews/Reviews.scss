@@ -14,16 +14,24 @@
     border-radius: 40px;
 
     @include mobile {
-      display: none;
+      height: 40px;
     }
 
     &.left {
       left: 100px;
       transform: rotateY(180deg);
+
+      @include mobile{
+        left: 10px;
+      }
     }
 
     &.right {
       right: 100px;
+
+      @include mobile{
+        right: 10px;
+      }
     }
   }
 
@@ -33,12 +41,6 @@
     position: absolute;
     left: 0;
     transition: all 1s ease-out;
-
-    @include mobile {
-      height: 100vh;
-      flex-direction: column;
-      justify-content: center;
-    }
 
     .container {
       width: 100vw;
@@ -61,7 +63,7 @@
 
         @include mobile {
           width: 80%;
-          height: 150px;
+          height: 600px;
           margin: 15px 0;
         }
 
