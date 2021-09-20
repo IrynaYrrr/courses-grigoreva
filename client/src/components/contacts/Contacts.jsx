@@ -19,7 +19,11 @@ const useStyles = makeStyles({
         "&:hover": {
             backgroundColor: '#1565c0',
             color: "white"
-        }
+        },
+        '@media (max-width: 768px)': {
+            height: 50,
+            width: 70
+        },
     },
     instagram: {
         width: "80px",
@@ -29,7 +33,11 @@ const useStyles = makeStyles({
         "&:hover": {
             backgroundColor: '#ff4081',
             color: "white"
-        }
+        },
+        '@media (max-width: 768px)': {
+            height: 50,
+            width: 70
+        },
     },
     linkedin: {
         width: "80px",
@@ -39,7 +47,11 @@ const useStyles = makeStyles({
         "&:hover": {
             backgroundColor: '#1e88e5',
             color: "white"
-        }
+        },
+        '@media (max-width: 768px)': {
+            height: 50,
+            width: 70
+        },
     },
     whatsapp: {
         width: "80px",
@@ -49,7 +61,11 @@ const useStyles = makeStyles({
         "&:hover": {
             backgroundColor: '#76ff03',
             color: "white"
-        }
+        },
+        '@media (max-width: 768px)': {
+            height: 50,
+            width: 70
+        },
     },
     viber: {
         width: "80px",
@@ -59,7 +75,11 @@ const useStyles = makeStyles({
         "&:hover": {
             backgroundColor: '#8e24aa',
             color: "white"
-        }
+        },
+        '@media (max-width: 768px)': {
+            height: 50,
+            width: 70
+        },
     },
     telegram: {
         width: "80px",
@@ -69,7 +89,11 @@ const useStyles = makeStyles({
         "&:hover": {
             backgroundColor: '#40c4ff',
             color: "white"
-        }
+        },
+        '@media (max-width: 768px)': {
+            height: 50,
+            width: 70
+        },
     },
     gmail: {
         width: "80px",
@@ -79,7 +103,11 @@ const useStyles = makeStyles({
         "&:hover": {
             backgroundColor: '#ffc400',
             color: "white"
-        }
+        },
+        '@media (max-width: 768px)': {
+            height: 50,
+            width: 70
+        },
     },
 });
 
@@ -89,7 +117,7 @@ const Contacts = () => {
 
     return (
         <div className="contactform" id="contactform">
-            <div className="top">
+            <div className="googlemap">
                 <iframe
                     title="googlemap"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2645.620887014509!2d35.0479754516061!3d48.4638031362597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbe3e6b1cf0641%3A0x2e649084b63cfed6!2z0KbQtdC90YLRgCDQvtCx0YPRh9C10L3QuNGPICLQk9Cg0JjQk9Ce0KDQrNCV0JLQkCI!5e0!3m2!1sru!2sua!4v1628706056715!5m2!1sru!2sua"
