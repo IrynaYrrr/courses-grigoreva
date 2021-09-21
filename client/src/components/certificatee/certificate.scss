@@ -20,6 +20,10 @@
       margin: 30px;
       padding: 30px;
 
+      @include mobile {
+        margin: 0;
+      }
+
       .items {
 
         .heading {

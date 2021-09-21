@@ -14,6 +14,8 @@
 
     @include mobile {
       font-size: 25px;
+      margin-bottom: 15px;
+      padding: 3px;
     }
   }
 
@@ -49,6 +51,7 @@
       justify-content: space-around;
       padding: 30px;
       transition: all 1s ease;
+      background-color: white;
 
       &.featured {
         width: 300px;
@@ -92,8 +95,11 @@
         background-color: rgb(255, 255, 255);
         color: black;
         white-space: pre-line;
+        font-weight: bold;
 
         @include mobile {
+          padding: 0;
+          border-radius: unset;
           font-size: 10px;
           font-weight: bold;
           background-color: transparent;
@@ -110,7 +116,9 @@
           margin-bottom: 5px;
 
           @include mobile {
-            font-size: 20px;
+            font-size: 12px;
+            overflow: hidden;
+            padding: 1px;
           }
         }
 
@@ -118,9 +126,20 @@
           color: rgb(160, 67, 235);
 
           @include mobile {
-            font-size: 15px;
+            overflow: hidden;
+            font-size: 9px;
+            padding: 2px;
           }
         }
+
+        @include mobile {
+          border-radius: 10px;
+          padding: 5px;
+        }
+      }
+
+      @include mobile {
+        background-color: white;
       }
     }
   }

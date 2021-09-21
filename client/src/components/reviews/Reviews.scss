@@ -65,6 +65,7 @@
           width: 80%;
           height: 600px;
           margin: 15px 0;
+          overflow: hidden;
         }
 
         .left {
@@ -88,6 +89,10 @@
 
           img {
             height: 90%;
+
+            @include mobile{
+              height: 110%;
+            }
           }
         }
 
@@ -103,6 +108,14 @@
           }
         }
       }
+
+      @include mobile {
+        overflow: hidden;
+      }
+    }
+
+    @include mobile{
+      height: 640px;
     }
   }
 }

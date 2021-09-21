@@ -17,7 +17,8 @@ const useStyles = makeStyles({
         height: '96vh',
 
         '@media (max-width: 768px)': {
-            height: 'unset'
+            height: 'unset',
+            margin: 'unset',
         },
     },
 
@@ -886,7 +887,7 @@ const Schedule2 = () => {
     const classes = useStyles();
 
     return (
-        <div>
+        <div className="schedule">
             <Container
                 maxWidth="lg"
                 className={classes.container}>
@@ -919,7 +920,7 @@ const Schedule3 = () => {
     const classes = useStyles();
 
     return (
-        <div>
+        <div className="schedule">
             <Container
                 maxWidth="lg"
                 className={classes.container}>

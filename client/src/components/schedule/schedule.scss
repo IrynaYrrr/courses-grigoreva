@@ -1,8 +1,8 @@
 @import "../../global.scss";
 
-#schedule {
+.schedule {
 
   @include mobile {
-    height: unset;
+    height: unset !important;
   }
 }
