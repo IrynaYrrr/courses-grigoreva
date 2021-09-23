@@ -37,4 +37,4 @@ const Menu = ({ menuOpen, setMenuOpen }) => {
     )
 }
 
-export default Menu
+export default Menu;
