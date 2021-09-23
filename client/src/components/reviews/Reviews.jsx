@@ -112,11 +112,8 @@ const Reviews = () => {
 
     return (
         <div className="reviews" id="reviews">
-            <div
-                className="slider"
-                style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
-            >
-                {isMobile ?
+            <div className="slider" style={{ transform: `translateX(-${currentSlide * 100}vw)` }}>
+                { isMobile ?
                     currentData.map((d) => (
                         <div key={d.id} className="container">
                             <div className="item">
@@ -146,6 +143,7 @@ const Reviews = () => {
                         </div>
                     ))
                 }
+
             </div>
             <img
                 src="assets/arrow.png"

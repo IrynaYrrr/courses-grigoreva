@@ -13,6 +13,13 @@
     flex: 1;
     height: 100%;
 
+    .screen {
+
+      .screenimg {
+        height: 640px;
+      }
+    }
+
     .container {
       background-color: rgb(196, 204, 248);
       border-radius: 10px 100px / 120px;
