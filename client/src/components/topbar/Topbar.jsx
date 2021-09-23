@@ -2,7 +2,6 @@ import React from "react"
 import "./topbar.scss"
 import PhoneIcon from '@material-ui/icons/Phone';
 
-
 const Topbar = ({ menuOpen, setMenuOpen }) => {
     return (
         <div className={"topbar " + (menuOpen && "active")}>
@@ -41,4 +40,4 @@ const Topbar = ({ menuOpen, setMenuOpen }) => {
     )
 }
 
-export default Topbar
+export default Topbar;

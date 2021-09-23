@@ -11,6 +11,10 @@
   transition: all 1s ease;
   overflow: hidden;
 
+  @include mobile {
+    height: 100px;
+  }
+
   .wrapper {
     display: flex;
     align-items: center;
@@ -20,8 +24,16 @@
       display: flex;
       align-items: center;
 
+      @include mobile {
+        flex-direction: column;
+      }
+
       .logoimg {
-          margin-right: 20px;
+        margin-right: 20px;
+
+        @include mobile {
+          display: none;
+        }
 
         .logotype {
           width: 70px;
@@ -30,10 +42,6 @@
           @include mobile {
             margin-left: 40px;
           }
-        }
-
-        @include mobile {
-            display: none;
         }
       }
 
@@ -58,7 +66,6 @@
 
         @include mobile {
           margin-bottom: 5px;
-          //display: none;
         }
 
         .icon {
@@ -70,10 +77,6 @@
           font-size: 18px;
           font-weight: 500;
         }
-      }
-
-      @include mobile {
-        flex-direction: column;
       }
     }
 
@@ -103,37 +106,34 @@
       color: $mainColor;
       transition: all 1s ease;
     }
-
-
   }
 
   &.active {
     background-color: $mainColor;
     color: white;
 
+    a {
+      text-decoration: none;
+      color: white;
+    }
+
     .hamburger {
+
       span {
         &:first-child {
           background-color: white;
           transform: rotate(45deg);
         }
+
         &:nth-child(2) {
           opacity: 0;
         }
+
         &:last-child {
           background-color: white;
           transform: rotate(-45deg);
         }
       }
     }
-
-    a {
-      text-decoration: none;
-      color: white;
-    }
-  }
-
-  @include mobile {
-    height: 100px;
   }
 }
