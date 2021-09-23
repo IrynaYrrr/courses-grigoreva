@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { makeStyles } from '@material-ui/core';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
-import Card from "@material-ui/core/Card";
-import CardContent from "@material-ui/core/CardContent";
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
 import Box from '@material-ui/core/Box';
 import InputLabel from '@material-ui/core/InputLabel';
 import MenuItem from '@material-ui/core/MenuItem';
@@ -61,7 +61,10 @@ const ContactForm = ({ handleClose, setNotificationOpen, courses, course }) => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const data = await request('/api/order', 'POST', { selectedCourse, name, phone, message });
+            const data = await request(
+                '/api/order',
+                'POST',
+                { selectedCourse, name, phone, message });
             setNotificationOpen(true);
             handleClose();
         } catch (err) {
@@ -70,16 +73,9 @@ const ContactForm = ({ handleClose, setNotificationOpen, courses, course }) => {
     };
 
     return (
-        // <Container
-        //   maxWidth="lg">
-
         <Card className={classes.card}>
             <CardContent>
-                <form
-                    className={classes.form}
-                    onSubmit={handleSubmit}
-                    noValidate
-                >
+                <form className={classes.form} onSubmit={handleSubmit} noValidate>
 
                     <FormControl
                         required
@@ -93,9 +89,13 @@ const ContactForm = ({ handleClose, setNotificationOpen, courses, course }) => {
                             label="Выбрать Курс"
                             labelId="course-label"
                             value={selectedCourse}
-                            onChange={(e) => setSelectedCourse(e.target.value)}
+                            onChange={(e) =>
+                                setSelectedCourse(e.target.value)}
                         >
-                            {courses.map((c) => <MenuItem key={c.course.name} value={c.course.name}>{c.course.name}</MenuItem>)}
+                            {courses.map((c) =>
+                                <MenuItem key={c.course.name}
+                                          value={c.course.name}>{c.course.name}
+                                </MenuItem>)}
                         </Select>
                     </FormControl>
 
@@ -106,7 +106,8 @@ const ContactForm = ({ handleClose, setNotificationOpen, courses, course }) => {
                         fullWidth
                         variant="outlined"
                         value={name}
-                        onChange={(e) => setName(e.target.value)}
+                        onChange={(e) =>
+                            setName(e.target.value)}
                     />
                     <MuiPhoneInput
                         label="Телефон"
@@ -129,7 +130,8 @@ const ContactForm = ({ handleClose, setNotificationOpen, courses, course }) => {
                         multiline
                         rows={4}
                         value={message}
-                        onChange={(e) => setMessage(e.target.value)}
+                        onChange={(e) =>
+                            setMessage(e.target.value)}
                     />
 
                     <Box display="flex" justifyContent="center">
@@ -140,11 +142,10 @@ const ContactForm = ({ handleClose, setNotificationOpen, courses, course }) => {
                             className={classes.submit}
                         >
                             Отправить
-                  </Button>
+                        </Button>
                     </Box>
 
                 </form>
-
             </CardContent>
         </Card>
     );

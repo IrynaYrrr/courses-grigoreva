@@ -1,6 +1,5 @@
 import Snackbar from '@material-ui/core/Snackbar';
 import MuiAlert from '@material-ui/lab/Alert';
-import { useState } from 'react';
 
 const Alert = (props) => {
     return <MuiAlert elevation={6} variant="filled" {...props} />;
@@ -8,6 +7,7 @@ const Alert = (props) => {
 
 const Notification = ({ open, setOpen }) => {
     const handleClose = (event, reason) => {
+
         if (reason === 'clickaway') {
             return;
         }
@@ -19,7 +19,7 @@ const Notification = ({ open, setOpen }) => {
         <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
             <Alert onClose={handleClose} severity="success">
                 Ваша заявка отправлена. Мы с Вами свяжемся.
-        </Alert>
+            </Alert>
         </Snackbar>
     );
 }

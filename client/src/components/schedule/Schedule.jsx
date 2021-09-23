@@ -21,7 +21,6 @@ const useStyles = makeStyles({
             margin: 'unset',
         },
     },
-
 });
 
 const courses = [
@@ -921,9 +920,7 @@ const Schedule3 = () => {
 
     return (
         <div className="schedule">
-            <Container
-                maxWidth="lg"
-                className={classes.container}>
+            <Container maxWidth="lg" className={classes.container}>
                 <Grid
                     container
                     direction="row"
@@ -948,6 +945,5 @@ const Schedule3 = () => {
         </div>
     );
 };
-
 
 export { Schedule1, Schedule2, Schedule3 }
