@@ -30,7 +30,7 @@ const Menu = ({ menuOpen, setMenuOpen }) => {
                 </li>
 
                 <li onClick={() => setMenuOpen(false)} >
-                    <a href="#contactform">Контакты</a>
+                    <a href="#contacts">Контакты</a>
                 </li>
             </ul>
         </div>
