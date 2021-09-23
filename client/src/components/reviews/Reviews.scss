@@ -21,7 +21,7 @@
       left: 100px;
       transform: rotateY(180deg);
 
-      @include mobile{
+      @include mobile {
         left: 10px;
       }
     }
@@ -29,7 +29,7 @@
     &.right {
       right: 100px;
 
-      @include mobile{
+      @include mobile {
         right: 10px;
       }
     }
@@ -37,10 +37,14 @@
 
   .slider {
     height: 650px;
+    left: 0;
     display: flex;
     position: absolute;
-    left: 0;
     transition: all 1s ease-out;
+
+    @include mobile {
+      height: 640px;
+    }
 
     .container {
       width: 100vw;
@@ -90,7 +94,7 @@
           img {
             height: 90%;
 
-            @include mobile{
+            @include mobile {
               height: 110%;
             }
           }
@@ -108,14 +112,6 @@
           }
         }
       }
-
-      @include mobile {
-        overflow: hidden;
-      }
-    }
-
-    @include mobile{
-      height: 640px;
     }
   }
 }

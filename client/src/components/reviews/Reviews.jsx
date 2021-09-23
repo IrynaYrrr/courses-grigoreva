@@ -112,13 +112,14 @@ const Reviews = () => {
 
     return (
         <div className="reviews" id="reviews">
-            <div className="slider" style={{ transform: `translateX(-${currentSlide * 100}vw)` }}>
-                { isMobile ?
+            <div className="slider"
+                 style={{ transform: `translateX(-${currentSlide * 100}vw)` }}>
+                {isMobile ?
                     currentData.map((d) => (
                         <div key={d.id} className="container">
                             <div className="item">
                                 <div className="center">
-                                    <img src={d.img} alt="" />
+                                    <img src={d.img} alt="Скриншот переписки" />
                                 </div>
                             </div>
                         </div>
@@ -127,17 +128,17 @@ const Reviews = () => {
                         <div key={d.id} className="container">
                             <div className="item">
                                 <div className="left">
-                                    <img src={d.imgleft} alt="" />
+                                    <img src={d.imgleft} alt="Скриншот переписки" />
                                 </div>
                             </div>
                             <div className="item">
                                 <div className="center">
-                                    <img src={d.imgcenter} alt="" />
+                                    <img src={d.imgcenter} alt="Скриншот переписки" />
                                 </div>
                             </div>
                             <div className="item">
                                 <div className="right">
-                                    <img src={d.imgright} alt="" />
+                                    <img src={d.imgright} alt="Скриншот переписки" />
                                 </div>
                             </div>
                         </div>
@@ -148,13 +149,13 @@ const Reviews = () => {
             <img
                 src="assets/arrow.png"
                 className="arrow left"
-                alt=""
+                alt="Стрелка влево"
                 onClick={() => handleClick('left')}
             />
             <img
                 src="assets/arrow.png"
                 className="arrow right"
-                alt=""
+                alt="Стрелка вправо"
                 onClick={() => handleClick()}
             />
         </div>
