@@ -3,7 +3,9 @@ import { useState } from 'react';
 import './seminars.scss';
 
 const Seminars = () => {
+
     const [currentSlide, setCurrentSlide] = useState(0);
+
     const data = [
         {
             id: '1',
@@ -28,12 +30,12 @@ const Seminars = () => {
                     <div className="container">
                         <div className="item">
                             <div className="left">
-                                <img src={d.imgOne} alt="" />
+                                <img src={d.imgOne} alt="Анонс семинара" />
                             </div>
                         </div>
                         <div className="item">
                             <div className="right">
-                                <img src={d.imgTwo} alt="" />
+                                <img src={d.imgTwo} alt="Анонс семинара" />
                             </div>
                         </div>
                     </div>

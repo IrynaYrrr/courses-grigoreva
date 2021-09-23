@@ -45,6 +45,10 @@
       justify-content: center;
       overflow: hidden;
 
+      @include mobile {
+        flex-direction: column;
+      }
+
       .item {
         width: 400px;
         height: auto;
@@ -70,7 +74,7 @@
           justify-content: center;
           overflow: hidden;
 
-          @include mobile{
+          @include mobile {
             height: 100%;
           }
 
@@ -93,23 +97,20 @@
           justify-content: center;
           overflow: hidden;
 
-          @include mobile{
+          @include mobile {
             height: 100%;
           }
 
           img {
             width: 400px;
 
-            @include mobile{
+            @include mobile {
               width: 70%;
               height: 95%;
               object-fit: contain;
             }
           }
         }
-      }
-      @include mobile{
-        flex-direction: column;
       }
     }
   }
