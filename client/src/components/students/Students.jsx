@@ -49,11 +49,11 @@ const Students = () => {
                             <div className="top">
                                 <img className="user"
                                      src={d.img}
-                                     alt=""
+                                     alt="Фото студента"
                                 />
                             </div>
                             <div className="center">
-                                     {d.desc}
+                                {d.desc}
                             </div>
                         </div>
                         <div className="bottom">

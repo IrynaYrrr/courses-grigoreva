@@ -7,6 +7,10 @@
   justify-content: center;
   position: relative;
 
+  @include mobile {
+    justify-content: space-around;
+  }
+
   h1 {
     font-size: 50px;
     margin-top: 30px;
@@ -68,6 +72,11 @@
         align-items: center;
         justify-content: center;
 
+        @include mobile {
+          height: 100%;
+          width: 100%;
+        }
+
         img {
           &.user {
             height: 250px;
@@ -81,19 +90,13 @@
             }
           }
         }
-
-        @include mobile {
-          height: 100%;
-          width: 100%;
-        }
       }
 
       .center {
         padding: 10px;
         height: auto;
         border-radius: 10px;
-        background-color: rgb(255, 255, 255);
-        color: black;
+        color: #000000;
         white-space: pre-line;
         font-weight: bold;
 
@@ -111,6 +114,11 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+
+        @include mobile {
+          border-radius: 10px;
+          padding: 5px;
+        }
 
         h3 {
           margin-bottom: 5px;
@@ -131,20 +139,7 @@
             padding: 2px;
           }
         }
-
-        @include mobile {
-          border-radius: 10px;
-          padding: 5px;
-        }
-      }
-
-      @include mobile {
-        background-color: white;
       }
     }
-  }
-
-  @include mobile {
-    justify-content: space-around;
   }
 }
