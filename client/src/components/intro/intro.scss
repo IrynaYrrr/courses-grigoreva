@@ -8,11 +8,11 @@
     align-items: center;
   }
 
-  .left {
+  .container {
     flex: 0.5;
     overflow: hidden;
 
-    .imgContainer {
+    .photo {
       width: 700px;
       height: 700px;
       margin-top: 20px;
@@ -37,11 +37,11 @@
     }
   }
 
-  .right {
+  .greeting {
     flex: 0.5;
     position: relative;
 
-    .wrapper {
+    .appeal {
       width: 100%;
       height: 80%;
       padding-left: 50px;
@@ -62,13 +62,15 @@
           font-size: 15px;
         }
       }
+
       h2 {
         font-size: 40px;
 
-        @include mobile{
+        @include mobile {
           font-size: 30px;
         }
       }
+
       h3 {
         font-size: 30px;
 
