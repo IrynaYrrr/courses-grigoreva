@@ -67,6 +67,9 @@ const ScheduleOrder = ({ orderOpen, setOrderOpen, setNotificationOpen, courses, 
                 />
                 <br />
                 <Typography gutterBottom>
+                    {course.proviso0}
+                </Typography>
+                <Typography gutterBottom>
                     {course.proviso1}
                 </Typography>
                 <Typography gutterBottom>
