@@ -1,0 +1,102 @@
+@import "../../global.scss";
+
+.seminars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  .arrow {
+    height: 50px;
+    position: absolute;
+    cursor: pointer;
+
+    @include mobile {
+      display: none;
+    }
+
+    &.left {
+      left: 100px;
+      transform: rotateY(180deg);
+    }
+
+    &.right {
+      right: 100px;
+    }
+  }
+
+  .slider {
+    height: 600px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: all 1s ease-out;
+
+    @include mobile {
+      height: 97vh;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .container {
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+
+      @include mobile {
+        flex-direction: column;
+      }
+
+        .left {
+          flex: 1;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          overflow: hidden;
+
+          @include mobile {
+            height: 100%;
+          }
+
+          img {
+            width: 400px;
+            border-radius: 15px;
+
+            @include mobile {
+              //border-radius: 15px;
+              width: 60%;
+              height: 100%;
+              //margin-left: -15px;
+              //zoom: 0.7;
+            }
+
+            @include mobile-min {
+              //border-radius: 15px;
+              //width: 60%;
+              //height: 100%;
+              //margin-left: -15px;
+              //zoom: 0.5;
+            }
+          }
+        }
+
+        .right {
+          flex: 1;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          overflow: hidden;
+          margin: 50px;
+
+          @include mobile {
+            zoom: 0.6;
+          }
+        }
+      //}
+    }
+  }
+}

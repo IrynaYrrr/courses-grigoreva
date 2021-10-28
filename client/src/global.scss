@@ -7,3 +7,9 @@ $width: 768px;
         @content
     }
 }
+
+@mixin mobile-min {
+    @media (max-width: #{375px}){
+        @content
+    }
+}

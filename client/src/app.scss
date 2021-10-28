@@ -26,8 +26,13 @@
         }
 
         @include mobile {
-            top: 100px;
-            height: calc(100vh - 100px);
+            top: 180px;
+            height: calc(100vh - 180px);
+        }
+
+        @include mobile-min {
+            top: 200px;
+            height: calc(100vh - 200px);
         }
     }
 }

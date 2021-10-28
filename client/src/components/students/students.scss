@@ -40,20 +40,19 @@
 
       @include mobile {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         height: 100px;
       }
     }
 
     .card {
-      width: 250px;
-      height: 70%;
+      height: auto;
       border-radius: 10px;
       box-shadow: 0px 0px 15px -8px black;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      padding: 30px;
+      padding: 20px;
       transition: all 1s ease;
       background-color: white;
 
@@ -73,6 +72,7 @@
         justify-content: center;
 
         @include mobile {
+          position: relative;
           height: 100%;
           width: 100%;
         }
@@ -84,8 +84,10 @@
             object-fit: cover;
 
             @include mobile {
-              width: 63px;
-              height: 80px;
+              position: absolute;
+              object-fit:cover;
+              width: 100%;
+              height: 150%;
               border-radius: 3px;
             }
           }
@@ -94,7 +96,7 @@
 
       .center {
         padding: 10px;
-        height: auto;
+        height: 100%;
         border-radius: 10px;
         color: #000000;
         white-space: pre-line;
