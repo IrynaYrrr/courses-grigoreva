@@ -73,10 +73,10 @@ const ContactForm = () => {
                 return;
             }
 
-            // await request(
-            //     '/api/order',
-            //     'POST',
-            //     { selectedCourse, name, phone, message });
+            await request(
+                '/api/order',
+                'POST',
+                { selectedCourse, name, phone, message });
 
             setAlert({ open: true, severity: 'success', message: 'Ваша заявка получена!' });
         } catch (err) {
