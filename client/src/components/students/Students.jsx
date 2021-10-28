@@ -1,7 +1,17 @@
 import React from 'react'
 import './students.scss'
+import { useMediaQuery } from 'react-responsive';
+import Filter1Icon from '@material-ui/icons/Filter1';
+import CheckIcon from '@material-ui/icons/Check';
+import Filter2Icon from '@material-ui/icons/Filter2';
+import Filter3Icon from '@material-ui/icons/Filter3';
+import Filter4Icon from '@material-ui/icons/Filter4';
+import Filter5Icon from '@material-ui/icons/Filter5';
+import Filter6Icon from '@material-ui/icons/Filter6';
 
 const Students = () => {
+
+    const isMobile = useMediaQuery({ query: `(max-width: 768px)` });
 
     const data = [
         {
@@ -42,27 +52,49 @@ const Students = () => {
     return (
         <div className="students" id="students">
             <h1>Студенты</h1>
-            <div className="container">
-                {data.map(d => (
-                    <div className={d.featured ? 'card featured' : 'card'}>
-                        <div className="mobile">
-                            <div className="top">
-                                <img className="user"
-                                     src={d.img}
-                                     alt="Фото студента"
-                                />
-                            </div>
-                            <div className="center">
-                                {d.desc}
-                            </div>
-                        </div>
-                        <div className="bottom">
-                            <h3>{d.name}</h3>
-                            <h4>{d.title}</h4>
-                        </div>
+
+            {isMobile ?
+                <>
+                    <div className="container">
+                        <img className="mobile"
+                             src="assets/std1.png"
+                             alt=""
+                        />
+                        <br />
+                        <img className="mobile"
+                             src="assets/std2.png"
+                             alt=""
+                        />
+                        <br />
+                        <img className="mobile"
+                             src="assets/std3.png"
+                             alt=""
+                        />
                     </div>
-                ))}
-            </div>
+                </>
+                :
+                <div className="container">
+                    {data.map(d => (
+                        <div className={d.featured ? 'card featured' : 'card'}>
+                            <div className="mobile">
+                                <div className="top">
+                                    <img className="user"
+                                         src={d.img}
+                                         alt="Фото студента"
+                                    />
+                                </div>
+                                <div className="center">
+                                    {d.desc}
+                                </div>
+                            </div>
+                            <div className="bottom">
+                                <h3>{d.name}</h3>
+                                <h4>{d.title}</h4>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            }
         </div>
     )
 }
