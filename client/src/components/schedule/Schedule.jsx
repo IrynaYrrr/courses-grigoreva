@@ -782,7 +782,7 @@ const courses = [
             name: '«Техника безопасности и охрана труда»',
             start: 'На выбор',
             group: 'Нет',
-            indiv: 'Да',
+            indiv: '450 грн',
             hours: '1 час',
             discount: '-',
             program: 'Программа консультации',
