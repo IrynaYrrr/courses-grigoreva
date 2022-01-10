@@ -60,27 +60,27 @@ const courses = [
             ],
             makeStyles: {
                 toolbar1: {
-                    backgroundColor: '#ffcf33',
+                    backgroundColor: '#7e1594',
                     color: 'white',
                 },
                 toolbar2: {
-                    backgroundColor: '#fb8c00',
+                    backgroundColor: '#a043eb',
                     color: 'white',
                     height: '150px',
                     marginBottom: '7px',
                 },
                 button1: {
                     width: '100%',
-                    backgroundColor: '#ffcf33',
+                    backgroundColor: '#7e1594',
                     color: 'white',
-                    '&:hover': { backgroundColor: '#efd068' },
+                    '&:hover': { backgroundColor: '#a043eb' },
                 },
                 button2: {
                     width: '100%',
-                    backgroundColor: '#f57c00',
+                    backgroundColor: '#a043eb',
                     color: 'white',
                     height: '45px',
-                    '&:hover': { backgroundColor: '#ed9943' },
+                    '&:hover': { backgroundColor: '#7e1594' },
                 },
                 typography: {
                     fontSize: '21px',
@@ -135,27 +135,27 @@ const courses = [
             ],
             makeStyles: {
                 toolbar1: {
-                    backgroundColor: '#64dd17',
+                    backgroundColor: '#0a0a09',
                     color: 'white',
                 },
                 toolbar2: {
-                    backgroundColor: '#52b202',
+                    backgroundColor: '#2f2f2b',
                     color: 'white',
                     height: '150px',
                     marginBottom: '7px',
                 },
                 button1: {
                     width: '100%',
-                    backgroundColor: '#64dd17',
+                    backgroundColor: '#0a0a09',
                     color: 'white',
-                    '&:hover': { backgroundColor: '#96e961' },
+                    '&:hover': { backgroundColor: '#2f2f2b' },
                 },
                 button2: {
                     width: '100%',
-                    backgroundColor: '#469a10',
+                    backgroundColor: '#2f2f2b',
                     color: 'white',
                     height: '45px',
-                    '&:hover': { backgroundColor: '#76b150' },
+                    '&:hover': { backgroundColor: '#0a0a09' },
                 },
                 typography: {
                     fontSize: '21px',
@@ -193,27 +193,27 @@ const courses = [
             ],
             makeStyles: {
                 toolbar1: {
-                    backgroundColor: '#ffcf33',
+                    backgroundColor: '#7e1594',
                     color: 'white',
                 },
                 toolbar2: {
-                    backgroundColor: '#fb8c00',
+                    backgroundColor: '#a043eb',
                     color: 'white',
                     height: '150px',
                     marginBottom: '7px',
                 },
                 button1: {
                     width: '100%',
-                    backgroundColor: '#ffcf33',
+                    backgroundColor: '#7e1594',
                     color: 'white',
-                    '&:hover': { backgroundColor: '#efd068' },
+                    '&:hover': { backgroundColor: '#a043eb' },
                 },
                 button2: {
                     width: '100%',
-                    backgroundColor: '#f57c00',
+                    backgroundColor: '#a043eb',
                     color: 'white',
                     height: '45px',
-                    '&:hover': { backgroundColor: '#ed9943' },
+                    '&:hover': { backgroundColor: '#7e1594' },
                 },
                 typography: {
                     fontSize: '21px',
@@ -303,27 +303,27 @@ const courses = [
             ],
             makeStyles: {
                 toolbar1: {
-                    backgroundColor: '#64dd17',
+                    backgroundColor: '#0a0a09',
                     color: 'white',
                 },
                 toolbar2: {
-                    backgroundColor: '#52b202',
+                    backgroundColor: '#2f2f2b',
                     color: 'white',
                     height: '150px',
                     marginBottom: '7px',
                 },
                 button1: {
                     width: '100%',
-                    backgroundColor: '#64dd17',
+                    backgroundColor: '#0a0a09',
                     color: 'white',
-                    '&:hover': { backgroundColor: '#96e961' },
+                    '&:hover': { backgroundColor: '#2f2f2b' },
                 },
                 button2: {
                     width: '100%',
-                    backgroundColor: '#469a10',
+                    backgroundColor: '#2f2f2b',
                     color: 'white',
                     height: '45px',
-                    '&:hover': { backgroundColor: '#76b150' },
+                    '&:hover': { backgroundColor: '#0a0a09' },
                 },
                 typography: {
                     fontSize: '21px',
@@ -360,27 +360,27 @@ const courses = [
             ],
             makeStyles: {
                 toolbar1: {
-                    backgroundColor: '#64dd17',
+                    backgroundColor: '#7e1594',
                     color: 'white',
                 },
                 toolbar2: {
-                    backgroundColor: '#52b202',
+                    backgroundColor: '#a043eb',
                     color: 'white',
                     height: '150px',
                     marginBottom: '7px',
                 },
                 button1: {
                     width: '100%',
-                    backgroundColor: '#64dd17',
+                    backgroundColor: '#7e1594',
                     color: 'white',
-                    '&:hover': { backgroundColor: '#96e961' },
+                    '&:hover': { backgroundColor: '#a043eb' },
                 },
                 button2: {
                     width: '100%',
-                    backgroundColor: '#469a10',
+                    backgroundColor: '#a043eb',
                     color: 'white',
                     height: '45px',
-                    '&:hover': { backgroundColor: '#76b150' },
+                    '&:hover': { backgroundColor: '#7e1594' },
                 },
                 typography: {
                     fontSize: '17px',
@@ -424,27 +424,27 @@ const courses = [
             ],
             makeStyles: {
                 toolbar1: {
-                    backgroundColor: '#ffcf33',
+                    backgroundColor: '#0a0a09',
                     color: 'white',
                 },
                 toolbar2: {
-                    backgroundColor: '#fb8c00',
+                    backgroundColor: '#2f2f2b',
                     color: 'white',
                     height: '150px',
                     marginBottom: '7px',
                 },
                 button1: {
                     width: '100%',
-                    backgroundColor: '#ffcf33',
+                    backgroundColor: '#0a0a09',
                     color: 'white',
-                    '&:hover': { backgroundColor: '#efd068' },
+                    '&:hover': { backgroundColor: '#2f2f2b' },
                 },
                 button2: {
                     width: '100%',
-                    backgroundColor: '#f57c00',
+                    backgroundColor: '#2f2f2b',
                     color: 'white',
                     height: '45px',
-                    '&:hover': { backgroundColor: '#ed9943' },
+                    '&:hover': { backgroundColor: '#0a0a09' },
                 },
                 typography: {
                     fontSize: '17px',
@@ -488,27 +488,27 @@ const courses = [
             ],
             makeStyles: {
                 toolbar1: {
-                    backgroundColor: '#64dd17',
+                    backgroundColor: '#7e1594',
                     color: 'white',
                 },
                 toolbar2: {
-                    backgroundColor: '#52b202',
+                    backgroundColor: '#a043eb',
                     color: 'white',
                     height: '150px',
                     marginBottom: '7px',
                 },
                 button1: {
                     width: '100%',
-                    backgroundColor: '#64dd17',
+                    backgroundColor: '#7e1594',
                     color: 'white',
-                    '&:hover': { backgroundColor: '#96e961' },
+                    '&:hover': { backgroundColor: '#a043eb' },
                 },
                 button2: {
                     width: '100%',
-                    backgroundColor: '#469a10',
+                    backgroundColor: '#a043eb',
                     color: 'white',
                     height: '45px',
-                    '&:hover': { backgroundColor: '#76b150' },
+                    '&:hover': { backgroundColor: '#7e1594' },
                 },
                 typography: {
                     fontSize: '17px',
@@ -548,27 +548,27 @@ const courses = [
             ],
             makeStyles: {
                 toolbar1: {
-                    backgroundColor: '#ffcf33',
+                    backgroundColor: '#0a0a09',
                     color: 'white',
                 },
                 toolbar2: {
-                    backgroundColor: '#fb8c00',
+                    backgroundColor: '#2f2f2b',
                     color: 'white',
                     height: '150px',
                     marginBottom: '7px',
                 },
                 button1: {
                     width: '100%',
-                    backgroundColor: '#ffcf33',
+                    backgroundColor: '#0a0a09',
                     color: 'white',
-                    '&:hover': { backgroundColor: '#efd068' },
+                    '&:hover': { backgroundColor: '#2f2f2b' },
                 },
                 button2: {
                     width: '100%',
-                    backgroundColor: '#f57c00',
+                    backgroundColor: '#2f2f2b',
                     color: 'white',
                     height: '45px',
-                    '&:hover': { backgroundColor: '#ed9943' },
+                    '&:hover': { backgroundColor: '#0a0a09' },
                 },
                 typography: {
                     fontSize: '17px',
@@ -641,27 +641,27 @@ const courses = [
             ],
             makeStyles: {
                 toolbar1: {
-                    backgroundColor: '#ffcf33',
+                    backgroundColor: '#7e1594',
                     color: 'white',
                 },
                 toolbar2: {
-                    backgroundColor: '#fb8c00',
+                    backgroundColor: '#a043eb',
                     color: 'white',
                     height: '150px',
                     marginBottom: '7px',
                 },
                 button1: {
                     width: '100%',
-                    backgroundColor: '#ffcf33',
+                    backgroundColor: '#7e1594',
                     color: 'white',
-                    '&:hover': { backgroundColor: '#efd068' },
+                    '&:hover': { backgroundColor: '#a043eb' },
                 },
                 button2: {
                     width: '100%',
-                    backgroundColor: '#f57c00',
+                    backgroundColor: '#a043eb',
                     color: 'white',
                     height: '45px',
-                    '&:hover': { backgroundColor: '#ed9943' },
+                    '&:hover': { backgroundColor: '#7e1594' },
                 },
                 typography: {
                     fontSize: '21px',
@@ -699,27 +699,27 @@ const courses = [
             ],
             makeStyles: {
                 toolbar1: {
-                    backgroundColor: '#64dd17',
+                    backgroundColor: '#0a0a09',
                     color: 'white',
                 },
                 toolbar2: {
-                    backgroundColor: '#52b202',
+                    backgroundColor: '#2f2f2b',
                     color: 'white',
                     height: '150px',
                     marginBottom: '7px',
                 },
                 button1: {
                     width: '100%',
-                    backgroundColor: '#64dd17',
+                    backgroundColor: '#0a0a09',
                     color: 'white',
-                    '&:hover': { backgroundColor: '#96e961' },
+                    '&:hover': { backgroundColor: '#2f2f2b' },
                 },
                 button2: {
                     width: '100%',
-                    backgroundColor: '#469a10',
+                    backgroundColor: '#2f2f2b',
                     color: 'white',
                     height: '45px',
-                    '&:hover': { backgroundColor: '#76b150' },
+                    '&:hover': { backgroundColor: '#0a0a09' },
                 },
                 typography: {
                     fontSize: '21px',
@@ -731,14 +731,14 @@ const courses = [
     {
         course: {
             classPrefix: 'card11',
-            title: 'Семинар (оффлайн)',
-            name: '«Повышение квалификации бухгалтера»',
-            start: '07.11.2021',
-            group: '1400 грн',
-            indiv: 'Да',
-            hours: '6 ак.ч.',
-            discount: 'При оплате до 03.11*',
-            proviso3: 'При оплате до 3 ноября - скидка 100 грн',
+            title: 'Консультация (оффлайн)',
+            name: '«РРО / ПРРО для ФОП и Юр.лиц 2022»',
+            start: 'На выбор',
+            group: 'Нет',
+            indiv: '500 грн',
+            hours: '1 час',
+            discount: 'Скидка 10%',
+            proviso3: '',
             program: 'Программа обучения',
             order: 'Записаться',
             courseProgram: [
@@ -756,27 +756,27 @@ const courses = [
             ],
             makeStyles: {
                 toolbar1: {
-                    backgroundColor: '#ffcf33',
+                    backgroundColor: '#7e1594',
                     color: 'white',
                 },
                 toolbar2: {
-                    backgroundColor: '#fb8c00',
+                    backgroundColor: '#a043eb',
                     color: 'white',
                     height: '150px',
                     marginBottom: '7px',
                 },
                 button1: {
                     width: '100%',
-                    backgroundColor: '#ffcf33',
+                    backgroundColor: '#7e1594',
                     color: 'white',
-                    '&:hover': { backgroundColor: '#efd068' },
+                    '&:hover': { backgroundColor: '#a043eb' },
                 },
                 button2: {
                     width: '100%',
-                    backgroundColor: '#f57c00',
+                    backgroundColor: '#a043eb',
                     color: 'white',
                     height: '45px',
-                    '&:hover': { backgroundColor: '#ed9943' },
+                    '&:hover': { backgroundColor: '#7e1594' },
                 },
                 typography: {
                     fontSize: '21px',
@@ -788,14 +788,14 @@ const courses = [
     {
         course: {
             classPrefix: 'card3',
-            title: 'Семинар (оффлайн)',
+            title: 'Консультация (оффлайн)',
             name: '«Техника безопасности и охрана труда»',
-            start: '14.11.2021',
-            group: '790 грн',
+            start: 'На выбор',
+            group: 'Нет',
             indiv: 'Да',
             hours: '4 ак.ч.',
             discount: 'Скидки нет',
-            program: 'Программа обучения',
+            program: 'Программа консультации',
             order: 'Записаться',
             courseProgram: [
                 '1) Закон Украины об охране труда',
@@ -818,27 +818,27 @@ const courses = [
             ],
             makeStyles: {
                 toolbar1: {
-                    backgroundColor: '#64dd17',
+                    backgroundColor: '#0a0a09',
                     color: 'white',
                 },
                 toolbar2: {
-                    backgroundColor: '#52b202',
+                    backgroundColor: '#2f2f2b',
                     color: 'white',
                     height: '150px',
                     marginBottom: '7px',
                 },
                 button1: {
                     width: '100%',
-                    backgroundColor: '#64dd17',
+                    backgroundColor: '#0a0a09',
                     color: 'white',
-                    '&:hover': { backgroundColor: '#96e961' },
+                    '&:hover': { backgroundColor: '#2f2f2b' },
                 },
                 button2: {
                     width: '100%',
-                    backgroundColor: '#469a10',
+                    backgroundColor: '#2f2f2b',
                     color: 'white',
                     height: '45px',
-                    '&:hover': { backgroundColor: '#76b150' },
+                    '&:hover': { backgroundColor: '#0a0a09' },
                 },
                 typography: {
                     fontSize: '21px',

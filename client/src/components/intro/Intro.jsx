@@ -26,7 +26,7 @@ const Intro = () => {
             <div className="container">
                 <div className="photo">
                     <img
-                        src="assets/teacher.jpg"
+                        src="assets/teacher4.jpg"
                         alt="Фото преподавателя"
                     />
                 </div>
@@ -35,7 +35,9 @@ const Intro = () => {
             <div className="greeting">
                 <div className="appeal">
                     <h2>Людмила Петровна</h2>
-                    <h4>Преподаватель «Центра обучения Григорьева»</h4>
+                    <h6 className="signature">Преподаватель «Центра обучения Григорьева»</h6>
+                    <h4>Обучаю в группах, а также индивидуально. Консультирую.</h4>
+                    <h4>Возьму на обслуживание ФОП.</h4>
                     <br />
                     <h3>Научу Вас:<br /><br /><span ref={textRef}></span></h3>
                 </div>

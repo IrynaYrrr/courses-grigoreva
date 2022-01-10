@@ -26,7 +26,7 @@ const Certificate = () => {
                             3.Сдаёте итоговый экзамен,
                             4.Получаете сертификат,
                             5.Добавляете навыки в резюме,
-                            6.Практикуете знания на работе"
+                            6.Применяете знания на работе"
                     />
 
                     :
@@ -40,7 +40,7 @@ const Certificate = () => {
                             <Filter3Icon /> <li><CheckIcon /> Сдаёте итоговый экзамен</li>
                             <Filter4Icon /> <li><CheckIcon /> Получаете сертификат</li>
                             <Filter5Icon /> <li><CheckIcon /> Добавляете навыки в резюме</li>
-                            <Filter6Icon /> <li><CheckIcon /> Практикуете знания на работе</li>
+                            <Filter6Icon /> <li><CheckIcon /> Применяете знания на работе</li>
                         </ul>
                     </span>
                 }

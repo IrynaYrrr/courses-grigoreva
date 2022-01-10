@@ -58,7 +58,7 @@ const Alert = (props) => {
 
 const ContactForm = () => {
     const classes = useStyles();
-    const [selectedCourse, setSelectedCourse] = useState('Запись на семинар «Повышение квалификации бухгалтера»');
+    const [selectedCourse, setSelectedCourse] = useState('Запись на консультацию:');
     const [name, setName] = useState('');
     const [phone, setPhone] = useState('');
     const [message, setMessage] = useState('');

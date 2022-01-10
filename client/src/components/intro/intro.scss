@@ -16,8 +16,7 @@
       width: 700px;
       height: 700px;
       margin-top: 20px;
-      background-color: rgb(235, 43, 43);
-      border-radius: 50%;
+      background-color: rgb(255, 211, 159);
       display: flex;
       align-items: flex-end;
       justify-content: center;
@@ -63,6 +62,15 @@
         }
       }
 
+      h6 {
+        margin: 15px 0;
+
+        @include mobile {
+          margin-top: 10px;
+          font-size: 10px;
+        }
+      }
+
       h2 {
         font-size: 40px;
 
@@ -80,7 +88,7 @@
 
         span {
           font-size: inherit;
-          color: rgb(249, 143, 63);
+          color: rgb(164, 19, 50);
         }
 
         .ityped-cursor {
