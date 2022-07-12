@@ -62,8 +62,9 @@
           }
 
           img {
-            width: 400px;
-            border-radius: 15px;
+            width: 470px;
+            height: 470px;
+            border-radius: 5px;
 
             @include mobile {
               //border-radius: 15px;

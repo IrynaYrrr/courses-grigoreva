@@ -78,7 +78,7 @@ const ScheduleItem = (props) => {
                         <GroupIcon />
                     </Avatar>
                 </ListItemAvatar>
-                <ListItemText primary={`В группе - ${props.course?.group}`} />
+                <ListItemText primary={`У групі - ${props.course?.group}`} />
             </ListItem>
 
             <ListItem>
@@ -87,7 +87,7 @@ const ScheduleItem = (props) => {
                         <PersonIcon />
                     </Avatar>
                 </ListItemAvatar>
-                <ListItemText primary={`Индивидуально - ${props.course?.indiv}`} />
+                <ListItemText primary={`Індивідуально - ${props.course?.indiv}`} />
             </ListItem>
 
             <ListItem>
@@ -114,7 +114,7 @@ const ScheduleItem = (props) => {
                         <SchoolIcon />
                     </Avatar>
                 </ListItemAvatar>
-                <ListItemText primary="Сертификат" />
+                <ListItemText primary="Сертифікат" />
             </ListItem>
 
             <CardActions>

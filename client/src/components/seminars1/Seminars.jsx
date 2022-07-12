@@ -10,7 +10,7 @@ const Seminars = () => {
     const data = [
         {
             id: '1',
-            img: './assets/rro.png'
+            img: './assets/consultation.png'
         }
     ];
 
@@ -30,7 +30,7 @@ const Seminars = () => {
                     <div className="container">
 
                         <div className="left">
-                            <img src={d.img} alt="Анонс консультации по РРО для ФОП и Юр. лиц" />
+                            <img src={d.img} alt="Анонс консультації " />
                         </div>
 
                         <div className="right">

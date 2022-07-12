@@ -62,10 +62,10 @@ const ScheduleProgram = ({ programOpen, setProgramOpen, name, courseProgram }) =
             <AppBar className={classes.appBar}>
                 <Toolbar>
                     <Typography variant="h6" className={classes.title}>
-                        Программа обучения {name}
+                      Програма навчання {name}
                     </Typography>
                     <Button autoFocus color="inherit" onClick={handleClose}>
-                        Закрыть
+                      Закрити
                     </Button>
                 </Toolbar>
             </AppBar>

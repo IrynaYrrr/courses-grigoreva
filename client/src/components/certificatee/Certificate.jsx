@@ -20,27 +20,27 @@ const Certificate = () => {
                 {isMobile ?
                     <img className="mobile"
                          src="assets/sixsteps.png"
-                         alt="Вы в 6 шагах от цели:
-                            1.Записываетесь на курс,
-                            2.Посещаете занятия,
-                            3.Сдаёте итоговый экзамен,
-                            4.Получаете сертификат,
-                            5.Добавляете навыки в резюме,
-                            6.Применяете знания на работе"
+                         alt="Ви за 6 кроків від мети:
+                         1.Записуєтесь на курс,
+                         2.Відвідуєте заняття,
+                         3.Складаєте підсумковий іспит,
+                         4.Отримуєте сертифікат,
+                         5.Додаєте навички в резюме,
+                         6.Використовуєте знання на роботі"
                     />
 
                     :
 
                     <span className="desktop">
-                        <h1 className="title">Вы в 6 шагах от цели:
+                        <h1 className="title">Ви за 6 кроків від мети:
                         </h1>
                         <ul>
-                            <Filter1Icon /> <li><CheckIcon /> Записываетесь на курс</li>
-                            <Filter2Icon /> <li><CheckIcon /> Посещаете занятия</li>
-                            <Filter3Icon /> <li><CheckIcon /> Сдаёте итоговый экзамен</li>
-                            <Filter4Icon /> <li><CheckIcon /> Получаете сертификат</li>
-                            <Filter5Icon /> <li><CheckIcon /> Добавляете навыки в резюме</li>
-                            <Filter6Icon /> <li><CheckIcon /> Применяете знания на работе</li>
+                            <Filter1Icon /> <li><CheckIcon /> Записуєтесь на курс</li>
+                            <Filter2Icon /> <li><CheckIcon /> Відвідуєте заняття</li>
+                            <Filter3Icon /> <li><CheckIcon /> Складаєте підсумковий іспит</li>
+                            <Filter4Icon /> <li><CheckIcon /> Отримуєте сертифікат</li>
+                            <Filter5Icon /> <li><CheckIcon /> Додаєте навички в резюме</li>
+                            <Filter6Icon /> <li><CheckIcon /> Використовуєте знання на роботі</li>
                         </ul>
                     </span>
                 }
@@ -49,7 +49,7 @@ const Certificate = () => {
             <div className="right">
                 <img className="diploma"
                      src="assets/certificate.png"
-                     alt="Фотокарточка сертификата"
+                     alt="Фотокартка сертифіката"
                 />
             </div>
         </div>

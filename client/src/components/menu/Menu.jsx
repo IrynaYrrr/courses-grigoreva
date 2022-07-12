@@ -6,23 +6,23 @@ const Menu = ({ menuOpen, setMenuOpen }) => {
         <div className={"menu " + (menuOpen && "active")}>
             <ul>
                 <li onClick={() => setMenuOpen(false)}>
-                    <a href="#intro">Главная</a>
+                    <a href="#intro">Головна</a>
                 </li>
 
                 <li onClick={() => setMenuOpen(false)}>
-                    <a href="#schedule">Курсы</a>
+                    <a href="#schedule">Курси</a>
                 </li>
 
                 <li onClick={() => setMenuOpen(false)} >
-                    <a href="#seminars">Консультация</a>
+                    <a href="#seminars">Консультація</a>
                 </li>
 
                 <li onClick={() => setMenuOpen(false)}>
-                    <a href="#certificate">Сертификат</a>
+                    <a href="#certificate">Сертифікат</a>
                 </li>
 
                 <li onClick={() => setMenuOpen(false)} >
-                    <a href="#students">Выпуск 2021</a>
+                    <a href="#students">Випуск 2021</a>
                 </li>
 
                 <li onClick={() => setMenuOpen(false)} >
@@ -30,7 +30,7 @@ const Menu = ({ menuOpen, setMenuOpen }) => {
                 </li>
 
                 <li onClick={() => setMenuOpen(false)} >
-                    <a href="#contacts">Контакты</a>
+                    <a href="#contacts">Контакти</a>
                 </li>
             </ul>
         </div>

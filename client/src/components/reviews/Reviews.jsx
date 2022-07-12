@@ -119,7 +119,7 @@ const Reviews = () => {
                         <div key={d.id} className="container">
                             <div className="item">
                                 <div className="center">
-                                    <img src={d.img} alt="Скриншот переписки" />
+                                    <img src={d.img} alt="Скріншот листування" />
                                 </div>
                             </div>
                         </div>
@@ -128,17 +128,17 @@ const Reviews = () => {
                         <div key={d.id} className="container">
                             <div className="item">
                                 <div className="left">
-                                    <img src={d.imgleft} alt="Скриншот переписки" />
+                                    <img src={d.imgleft} alt="Скріншот листування" />
                                 </div>
                             </div>
                             <div className="item">
                                 <div className="center">
-                                    <img src={d.imgcenter} alt="Скриншот переписки" />
+                                    <img src={d.imgcenter} alt="Скріншот листування" />
                                 </div>
                             </div>
                             <div className="item">
                                 <div className="right">
-                                    <img src={d.imgright} alt="Скриншот переписки" />
+                                    <img src={d.imgright} alt="Скріншот листування" />
                                 </div>
                             </div>
                         </div>
@@ -149,13 +149,13 @@ const Reviews = () => {
             <img
                 src="assets/arrow.png"
                 className="arrow left"
-                alt="Стрелка влево"
+                alt="Стрілка ліворуч"
                 onClick={() => handleClick('left')}
             />
             <img
                 src="assets/arrow.png"
                 className="arrow right"
-                alt="Стрелка вправо"
+                alt="Стрілка праворуч"
                 onClick={() => handleClick()}
             />
         </div>

@@ -30,12 +30,12 @@ const Seminars = () => {
                     <div className="container">
                         <div className="item">
                             <div className="left">
-                                <img src={d.imgOne} alt="Анонс семинара" />
+                                <img src={d.imgOne} alt="Анонс семінару" />
                             </div>
                         </div>
                         <div className="item">
                             <div className="right">
-                                <img src={d.imgTwo} alt="Анонс семинара" />
+                                <img src={d.imgTwo} alt="Анонс семінару" />
                             </div>
                         </div>
                     </div>

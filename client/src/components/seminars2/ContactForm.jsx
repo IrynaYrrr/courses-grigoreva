@@ -84,9 +84,9 @@ const ContactForm = ({ handleClose, setNotificationOpen, courses, course }) => {
                         variant="outlined"
                         fullWidth
                     >
-                        <InputLabel id="course-label">Выбрать Курс</InputLabel>
+                        <InputLabel id="course-label">Обрати Курс</InputLabel>
                         <Select
-                            label="Семинар"
+                            label="Семінар"
                             labelId="course-label"
                             value={selectedCourse}
                             onChange={(e) =>
@@ -100,7 +100,7 @@ const ContactForm = ({ handleClose, setNotificationOpen, courses, course }) => {
                     </FormControl>
 
                     <TextField
-                        label="Фамилия, Имя"
+                        label="Прізвище ім'я"
                         required
                         margin="normal"
                         fullWidth
@@ -123,7 +123,7 @@ const ContactForm = ({ handleClose, setNotificationOpen, courses, course }) => {
                         onChange={(e) => setPhone(e)}
                     />
                     <TextField
-                        label="Сообщение"
+                        label="Повідомлення"
                         margin="normal"
                         fullWidth
                         variant="outlined"
@@ -141,7 +141,7 @@ const ContactForm = ({ handleClose, setNotificationOpen, courses, course }) => {
                             color="secondary"
                             className={classes.submit}
                         >
-                            Отправить
+                            Надіслати
                         </Button>
                     </Box>
 

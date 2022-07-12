@@ -58,7 +58,7 @@ const Alert = (props) => {
 
 const ContactForm = () => {
     const classes = useStyles();
-    const [selectedCourse, setSelectedCourse] = useState('Запись на консультацию:');
+    const [selectedCourse, setSelectedCourse] = useState('Запис на консультацію:');
     const [name, setName] = useState('');
     const [phone, setPhone] = useState('');
     const [message, setMessage] = useState('');
@@ -78,10 +78,10 @@ const ContactForm = () => {
                 'POST',
                 { selectedCourse, name, phone, message });
 
-            setAlert({ open: true, severity: 'success', message: 'Ваша заявка получена!' });
+            setAlert({ open: true, severity: 'success', message: 'Вашу заявку отримано!' });
         } catch (err) {
             console.error(err);
-            setAlert({ open: true, severity: 'error', message: 'Ошибка отправки заявки!' });
+            setAlert({ open: true, severity: 'error', message: 'Помилка надсилання заявки!' });
         }
     };
 
@@ -109,7 +109,7 @@ const ContactForm = () => {
                         <Typography variant="h5" component="h6">{selectedCourse}</Typography>
                     </FormControl>
                     <TextField
-                        label="Фамилия, Имя"
+                        label="Прізвище ім'я"
                         required
                         margin="normal"
                         fullWidth
@@ -132,7 +132,7 @@ const ContactForm = () => {
                         onChange={(e) => setPhone(e)}
                     />
                     <TextField
-                        label="Сообщение"
+                        label="Повідомлення"
                         margin="normal"
                         fullWidth
                         variant="outlined"
@@ -150,7 +150,7 @@ const ContactForm = () => {
                             color="primary"
                             className={classes.submit}
                         >
-                            Отправить
+                            Надіслати
                         </Button>
                     </Box>
 

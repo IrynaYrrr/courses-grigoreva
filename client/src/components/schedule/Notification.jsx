@@ -18,7 +18,7 @@ const Notification = ({ open, setOpen }) => {
     return (
         <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
             <Alert onClose={handleClose} severity="success">
-                Ваша заявка отправлена. Мы с Вами свяжемся.
+              Вашу заявку відправлено. Ми з Вами зв'яжемося.
             </Alert>
         </Snackbar>
     );
