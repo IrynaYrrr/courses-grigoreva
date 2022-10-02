@@ -22,11 +22,11 @@ const Menu = ({ menuOpen, setMenuOpen }) => {
                 </li>
 
                 <li onClick={() => setMenuOpen(false)} >
-                    <a href="#students">Випуск 2021</a>
+                    <a href="#students">Студенти</a>
                 </li>
 
                 <li onClick={() => setMenuOpen(false)} >
-                    <a href="#reviews">Секретно</a>
+                    <a href="#reviews">Таємно</a>
                 </li>
 
                 <li onClick={() => setMenuOpen(false)} >

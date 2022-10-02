@@ -14,7 +14,7 @@ const Topbar = ({ menuOpen, setMenuOpen }) => {
                             className="logotype"
                         />
                     </div>
-                    <a href="#intro" className="logo">«Центр навчання Григорєва»</a>
+                    <a href="#intro" className="logo">«Центр бізнес-навчання Григорєва»</a>
                     <div className="itemContainer">
                         <PhoneIcon className="icon" />
                         <span>

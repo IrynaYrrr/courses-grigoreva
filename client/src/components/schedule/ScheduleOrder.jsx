@@ -56,7 +56,7 @@ const ScheduleOrder = ({ orderOpen, setOrderOpen, setNotificationOpen, courses, 
     return (
         <Dialog onClose={handleClose} aria-labelledby="customized-dialog-title" open={orderOpen}>
             <DialogTitle id="customized-dialog-title" onClose={handleClose}>
-                Записаться
+                Записатись
             </DialogTitle>
             <DialogContent dividers>
                 <ContactForm
