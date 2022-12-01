@@ -16,8 +16,9 @@
       width: 700px;
       height: 700px;
       margin-top: 20px;
-      background-color: rgb(255, 211, 159);
       display: flex;
+      background-color: #ffffff;
+      border-radius: 20px;
       align-items: flex-end;
       justify-content: center;
       float: right;
@@ -28,6 +29,7 @@
 
       img {
         height: 100%;
+        border-radius: 5px;
 
         @include mobile {
           height: 60%;
@@ -42,7 +44,7 @@
 
     .appeal {
       width: 100%;
-      height: 80%;
+      height: 60%;
       padding-left: 50px;
       display: flex;
       flex-direction: column;
@@ -72,7 +74,7 @@
       }
 
       h2 {
-        font-size: 35px;
+        font-size: 40px;
 
         @include mobile {
           font-size: 30px;
@@ -80,10 +82,31 @@
       }
 
       h3 {
-        font-size: 30px;
+        text-transform: uppercase;
+        width: 50%;
+        margin-top: 120px;
+        animation: colortext  8s infinite;
+
+        @keyframes colortext {
+          0%{color: #01070c;}
+          10%{color: #c29f33;}
+          20%{color: #3e9264;}
+          30%{color: #5ecc47;}
+          40%{color: #b656e3;}
+          50%{color: #43c1c1;}
+          60%{color: #599000;}
+          70%{color: #6f3f68;}
+          80%{color: #feb256;}
+          90%{color: #005179;}
+          100%{color: #51eebf;}
+        }
+      }
+
+      h4 {
+        font-size: 20px;
 
         @include mobile {
-          font-size: 25px;
+          font-size: 15px;
         }
 
         span {

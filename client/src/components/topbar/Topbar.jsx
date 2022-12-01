@@ -8,11 +8,13 @@ const Topbar = ({ menuOpen, setMenuOpen }) => {
             <div className="wrapper">
                 <div className="left">
                     <div className="logoimg">
+                    <a href="#intro">
                         <img
                             src="assets/logo.png"
                             alt=""
                             className="logotype"
                         />
+                    </a>
                     </div>
                     <a href="#intro" className="logo">«Центр бізнес-навчання Григорєва»</a>
                     <div className="itemContainer">

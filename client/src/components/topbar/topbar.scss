@@ -38,6 +38,7 @@
         .logotype {
           width: 70px;
           height: 70px;
+          cursor: pointer;
 
           @include mobile {
             margin-left: 40px;
