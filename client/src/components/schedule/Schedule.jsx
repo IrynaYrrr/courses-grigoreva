@@ -29,10 +29,10 @@ const courses = [
             classPrefix: 'card0',
             title: 'Курс (очно)',
             name: '«Бухгалтерський облік. Оподаткування»',
-            start: 'Щомісяця',
-            group: '6100 грн',
-            indiv: 'договірна',
-            hours: '85 академічних годин',
+            start: 'На вибір',
+            group: 'з другом -20%',
+            indiv: '18200 грн',
+            hours: '65 академічних годин',
             discount: 'Знижка від 7% до 20%',
             proviso0: '*Знижка 7% - за довідкою ВПО',
             proviso1: '*Знижка 10% - при оплаті повної вартості курсу одним платежем',
@@ -94,10 +94,10 @@ const courses = [
             classPrefix: 'card1',
             title: 'Курс (очно)',
             name: '«Спеціаліст відділу кадрів»',
-            start: 'Щомісяця',
-            group: '3900 грн',
-            indiv: 'договірна',
-            hours: '24 академічні години',
+            start: 'На вибір',
+            group: 'з другом -20%',
+            indiv: '8800 грн',
+            hours: '30 академічних годин',
             discount: 'Знижка від 7% до 20%',
             proviso0: '*Знижка 7% - за довідкою ВПО',
             proviso1: '*Знижка 10% - при оплаті повної вартості курсу одним платежем',
@@ -169,10 +169,10 @@ const courses = [
             classPrefix: 'card2',
             title: 'Курс (очно)',
             name: '«Академія підприємця (ФОП)»',
-            start: 'Щомісяця',
-            group: '3900 грн',
-            indiv: 'договірна',
-            hours: '28 академічних годин',
+            start: 'На вибір',
+            group: 'з другом -20%',
+            indiv: '8800 грн',
+            hours: '30 академічних годин',
             discount: 'Знижка від 7% до 20%',
             proviso0: '*Знижка 7% - за довідкою ВПО',
             proviso1: '*Знижка 10% - при оплаті повної вартості курсу одним платежем',
@@ -227,10 +227,10 @@ const courses = [
             classPrefix: 'card10',
             title: 'Курс (очно)',
             name: '«Управління персоналом»',
-            start: 'Щомісяця',
-            group: '5800 грн',
-            indiv: 'договірна',
-            hours: '40 академічних годин',
+            start: 'На вибір',
+            group: 'з другом -20%',
+            indiv: '9800 грн',
+            hours: '34 академічні години',
             discount: 'Знижка від 7% до 20%',
             proviso0: '*Знижка 7% - за довідкою ВПО',
             proviso1: '*Знижка 10% - при оплаті повної вартості курсу одним платежем',
@@ -320,10 +320,10 @@ const courses = [
             classPrefix: 'card9',
             title: 'Курс (очно)',
             name: '«Асистент / помічник керівника»',
-            start: 'Щомісяця',
-            group: '4100 грн',
-            indiv: 'договірна',
-            hours: '28 академічних годин',
+            start: 'На вибір',
+            group: 'з другом -20%',
+            indiv: '8800 грн',
+            hours: '30 академічних годин',
             discount: 'Знижка від 7% до 20%',
             proviso0: '*Знижка 7% - за довідкою ВПО',
             proviso1: '*Знижка 10% - при оплаті повної вартості курсу одним платежем',
@@ -431,10 +431,10 @@ const courses = [
             classPrefix: 'card5',
             title: 'Курс (очно)',
             name: '«Логістика транспортно-експедиційної компанії»',
-            start: 'Щомісяця',
-            group: '4100 грн',
-            indiv: 'договірна',
-            hours: '16 академічних годин',
+            start: 'На вибір',
+            group: 'з другом -20%',
+            indiv: '7200 грн',
+            hours: '18 академічних годин',
             discount: 'Знижка від 7% до 20%',
             proviso0: '*Знижка 7% - за довідкою ВПО',
             proviso1: '*Знижка 10% - при оплаті повної вартості курсу одним платежем',
@@ -490,8 +490,8 @@ const courses = [
             title: 'Курс (очно)',
             name: '«1C-8 Бухгалтерія для України»',
             start: 'На вибір',
-            group: 'немає',
-            indiv: '3600 грн',
+            group: 'з другом -20%',
+            indiv: '7600 грн',
             hours: '20 академічних годин',
             discount: 'Знижка від 7% до 20%',
             proviso0: '*Знижка 7% - за довідкою ВПО',
@@ -558,8 +558,8 @@ const courses = [
             title: 'Курс (очно)',
             name: '«1С-8 Кадровий облік та зарплата»',
             start: 'На вибір',
-            group: 'немає',
-            indiv: '1900 грн',
+            group: 'з другом -20%',
+            indiv: '3300 грн',
             hours: '10 академічних годин',
             discount: 'Знижка від 7% до 20%',
             proviso0: '*Знижка 7% - за довідкою ВПО',
@@ -615,8 +615,8 @@ const courses = [
             classPrefix: 'card6',
             title: 'Курс (очно)',
             name: '«Підвищення кваліфікації бухгалтера. Блок 1: Запаси»',
-            start: 'Щомісяця',
-            group: '3000 грн',
+            start: 'На вибір',
+            group: 'з другом -20%',
             indiv: 'договірна',
             hours: '14 академічних годин',
             discount: 'Знижка 7%',
@@ -672,8 +672,8 @@ const courses = [
             classPrefix: 'card7',
             title: 'Курс (очно)',
             name: '«Підвищення кваліфікації бухгалтера. Блок 2: Вибуття основних засобів. Ремонт та покращення»',
-            start: 'Щомісяця',
-            group: '3000 грн',
+            start: 'На вибір',
+            group: 'з другом -20%',
             indiv: 'договірна',
             hours: '18 академічних годин',
             discount: 'Знижка 7%',
@@ -736,8 +736,8 @@ const courses = [
             classPrefix: 'card8',
             title: 'Курс (очно)',
             name: '«Підвищення кваліфікації бухгалтера. Блок 3: Відокремлений підрозділ»',
-            start: 'Щомісяця',
-            group: '1500 грн',
+            start: 'На вибір',
+            group: 'з другом -20%',
             indiv: 'договірна',
             hours: '10 академічних годин',
             discount: 'Знижка 7%',
@@ -796,11 +796,11 @@ const courses = [
     },
     {
         course: {
-            classPrefix: 'card4',
+            classPrefix: 'card9',
             title: 'Курс (очно)',
             name: '«Підвищення кваліфікації бухгалтера. Блок 4: Канцтовари»',
-            start: 'Щомісяця',
-            group: '1000 грн',
+            start: 'На вибір',
+            group: 'з другом -20%',
             indiv: 'договірна',
             hours: '7 академічних годин',
             discount: 'Знижка 7%',
@@ -846,6 +846,192 @@ const courses = [
                     color: 'white',
                     height: '45px',
                     '&:hover': { backgroundColor: '#0a0a09' },
+                },
+                typography: {
+                    fontSize: '17px',
+                    fontWeight: 600,
+                },
+            },
+        },
+
+    },
+    {
+        course: {
+            classPrefix: 'card9',
+            title: 'Консультація(очно)',
+            name: '«Консультація РРО / ПРРО»',
+            start: 'На вибір',
+            group: 'з другом -20%',
+            indiv: '500 грн',
+            hours: '1 академічна година',
+            discount: 'Знижка 7%',
+            proviso3: '*Знижка 7% - за довідкою ВПО',
+            program: 'Програма навчання',
+            order: 'Записатись',
+            courseProgram: [
+                'Індивідуальна програма для кожного учня',
+            ],
+            makeStyles: {
+                toolbar1: {
+                    backgroundColor: '#0a0a09',
+                    color: 'white',
+                },
+                toolbar2: {
+                    backgroundColor: '#2f2f2b',
+                    color: 'white',
+                    height: '150px',
+                    marginBottom: '7px',
+                },
+                button1: {
+                    width: '100%',
+                    backgroundColor: '#0a0a09',
+                    color: 'white',
+                    '&:hover': { backgroundColor: '#2f2f2b' },
+                },
+                button2: {
+                    width: '100%',
+                    backgroundColor: '#2f2f2b',
+                    color: 'white',
+                    height: '45px',
+                    '&:hover': { backgroundColor: '#0a0a09' },
+                },
+                typography: {
+                    fontSize: '17px',
+                    fontWeight: 600,
+                },
+            },
+        },
+    },{
+        course: {
+            classPrefix: 'card10',
+            title: 'Консультація (очно)',
+            name: '«Техніка безпеки та охорона праці»',
+            start: 'На вибір',
+            group: 'з другом -20%',
+            indiv: '500 грн',
+            hours: '1 академічна година',
+            discount: 'Знижка 7%',
+            proviso3: '*Знижка 7% - за довідкою ВПО',
+            program: 'Програма навчання',
+            order: 'Записатись',
+            courseProgram: [
+                'Індивідуальна програма для кожного учня',
+            ],
+            makeStyles: {
+                toolbar1: {
+                    backgroundColor: '#7e1594',
+                    color: 'white',
+                },
+                toolbar2: {
+                    backgroundColor: '#a043eb',
+                    color: 'white',
+                    height: '150px',
+                    marginBottom: '7px',
+                },
+                button1: {
+                    width: '100%',
+                    backgroundColor: '#7e1594',
+                    color: 'white',
+                    '&:hover': { backgroundColor: '#a043eb' },
+                },
+                button2: {
+                    width: '100%',
+                    backgroundColor: '#a043eb',
+                    color: 'white',
+                    height: '45px',
+                    '&:hover': { backgroundColor: '#7e1594' },
+                },
+                typography: {
+                    fontSize: '17px',
+                    fontWeight: 600,
+                },
+            },
+        },
+    },{
+        course: {
+            classPrefix: 'card11',
+            title: 'Курс (очно)',
+            name: '«M.E.Doc »',
+            start: 'На вибір',
+            group: 'з другом -20%',
+            indiv: '3300 грн',
+            hours: '10 академічних годин',
+            discount: 'Знижка 7%',
+            proviso3: '*Знижка 7% - за довідкою ВПО',
+            program: 'Програма навчання',
+            order: 'Записатись',
+            courseProgram: [
+                'Індивідуальна програма для кожного учня',
+            ],
+            makeStyles: {
+                toolbar1: {
+                    backgroundColor: '#0a0a09',
+                    color: 'white',
+                },
+                toolbar2: {
+                    backgroundColor: '#2f2f2b',
+                    color: 'white',
+                    height: '150px',
+                    marginBottom: '7px',
+                },
+                button1: {
+                    width: '100%',
+                    backgroundColor: '#0a0a09',
+                    color: 'white',
+                    '&:hover': { backgroundColor: '#2f2f2b' },
+                },
+                button2: {
+                    width: '100%',
+                    backgroundColor: '#2f2f2b',
+                    color: 'white',
+                    height: '45px',
+                    '&:hover': { backgroundColor: '#0a0a09' },
+                },
+                typography: {
+                    fontSize: '17px',
+                    fontWeight: 600,
+                },
+            },
+        },
+    },{
+        course: {
+            classPrefix: 'card12',
+            title: 'Курс (очно)',
+            name: '«Користувач ПК»',
+            start: 'На вибір',
+            group: 'з другом -20%',
+            indiv: '250грн / ак.год.',
+            hours: '15-30 академічних годин',
+            discount: 'Знижка 7%',
+            proviso3: '*Знижка 7% - за довідкою ВПО',
+            program: 'Програма навчання',
+            order: 'Записатись',
+            courseProgram: [
+                'Індивідуальна програма для кожного учня',
+            ],
+            makeStyles: {
+                toolbar1: {
+                    backgroundColor: '#7e1594',
+                    color: 'white',
+                },
+                toolbar2: {
+                    backgroundColor: '#a043eb',
+                    color: 'white',
+                    height: '150px',
+                    marginBottom: '7px',
+                },
+                button1: {
+                    width: '100%',
+                    backgroundColor: '#7e1594',
+                    color: 'white',
+                    '&:hover': { backgroundColor: '#a043eb' },
+                },
+                button2: {
+                    width: '100%',
+                    backgroundColor: '#a043eb',
+                    color: 'white',
+                    height: '45px',
+                    '&:hover': { backgroundColor: '#7e1594' },
                 },
                 typography: {
                     fontSize: '17px',
@@ -954,4 +1140,35 @@ const Schedule3 = () => {
     );
 };
 
-export { Schedule1, Schedule2, Schedule3 }
+const Schedule4 = () => {
+    const classes = useStyles();
+
+    return (
+        <div className="schedule">
+            <Container maxWidth="lg" className={classes.container}>
+                <Grid
+                    container
+                    direction="row"
+                    alignItems="center"
+                    spacing={3}
+                    className={classes.grid}
+                >
+                    <Grid item>
+                        <ScheduleItem courses={courses} course={courses[12].course} />
+                    </Grid>
+                    <Grid item>
+                        <ScheduleItem courses={courses} course={courses[13].course} />
+                    </Grid>
+                    <Grid item>
+                        <ScheduleItem courses={courses} course={courses[14].course} />
+                    </Grid>
+                    <Grid item>
+                        <ScheduleItem courses={courses} course={courses[15].course} />
+                    </Grid>
+                </ Grid>
+            </Container>
+        </div>
+    );
+};
+
+export { Schedule1, Schedule2, Schedule3, Schedule4 }
