@@ -114,7 +114,7 @@ const ScheduleItem = (props) => {
                         <SchoolIcon />
                     </Avatar>
                 </ListItemAvatar>
-                <ListItemText primary="Сертифікат" />
+                <ListItemText primary={props.course?.teacher} />
             </ListItem>
 
             <CardActions>
