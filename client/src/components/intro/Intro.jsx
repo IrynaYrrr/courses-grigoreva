@@ -25,7 +25,7 @@ const Intro = () => {
             <div className="container">
                 <div className="photo">
                     <img
-                        src="assets/teacher5.jpg"
+                        src="assets/teacher777.jpg"
                         alt="Фото викладача"
                     />
                 </div>
@@ -34,8 +34,8 @@ const Intro = () => {
             <div className="greeting">
                 <div className="appeal">
                     <h2>Людмила Петрівна</h2>
-                    <h6>Викладач «Центру бізнес-навчання Григорєва»</h6>
-                    <h4>Йде набір на <br /> навчання січень-лютий 2023</h4>
+                    <h6>Засновниця «Центру бізнес-навчання Григорєва»</h6>
+                    <h4>Йде набір на навчання <br />травень-червень 2023</h4>
                     <h3>Навчаю:<br /><br /><span ref={textRef}></span></h3>
                 </div>
             </div>

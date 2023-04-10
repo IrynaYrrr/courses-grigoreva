@@ -11,7 +11,7 @@ const post = async (req, res, next) => {
         await tg.sendMessage(JSON.stringify(
             { selectedCourse, name, phone, message },
             null,
-            ' '
+            ' ',
         ));
 
         res.json({ id: 0 });
