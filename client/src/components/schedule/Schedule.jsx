@@ -32,7 +32,7 @@ const courses = [
             start: 'На вибір',
             group: 'з другом -20%',
             indiv: '18200 грн',
-            hours: '65 академічних годин',
+            hours: '70 академічних годин',
             discount: 'Знижка від 7% до 20%',
             teacher: 'Викладач: Григорєва Людмила',
             proviso0: '*Знижка 7% - за довідкою ВПО',
@@ -98,7 +98,7 @@ const courses = [
             start: 'На вибір',
             group: 'з другом -20%',
             indiv: '8800 грн',
-            hours: '30 академічних годин',
+            hours: '40 академічних годин',
             discount: 'Знижка від 7% до 20%',
             teacher: 'Викладач: Григорєва Людмила',
             proviso0: '*Знижка 7% - за довідкою ВПО',
@@ -233,7 +233,7 @@ const courses = [
             start: 'На вибір',
             group: 'з другом -20%',
             indiv: '7200 грн',
-            hours: '18 академічних годин',
+            hours: '24 академічні години',
             discount: 'Знижка від 7% до 20%',
             teacher: 'Викладач: Дегтярьова Ольга',
             proviso0: '*Знижка 7% - за довідкою ВПО',
@@ -286,12 +286,69 @@ const courses = [
     },
     {
         course: {
+            classPrefix: 'card3',
+            title: 'Курс (очно)',
+            name: '«Академія ФОП (ведення свого бізнесу)»',
+            start: 'На вибір',
+            group: 'з другом -20%',
+            indiv: '5600 грн',
+            hours: '0 академічних годин',
+            discount: 'Знижка від 7% до 20%',
+            teacher: 'Викладач: Григорєва Людмила',
+            proviso0: '*Знижка 7% - за довідкою ВПО',
+            proviso1: '*Знижка 10% - при оплаті повної вартості курсу одним платежем',
+            proviso2: '*Знижка 20% - при одночасному записі 2-х і більше слухачів',
+            program: 'Програма навчання',
+            order: 'Записатись',
+            courseProgram: [
+                '1) Реєстрація ФОП / припинення реєстрації',
+                '2) Постановка на облік у податковому органі',
+                '3) Ведення обліку доходів/витрат',
+                '4) Оформлення змін реєстраційних даних',
+                '5) Реєстрація місця отримання доходів (форма 20-ОПП)',
+                '6) Незалежна професійна діяльність',
+                '7) Загальна система оподаткування',
+                '8) Спрощена система оподаткування (докладно кожна група)',
+            ],
+            makeStyles: {
+                toolbar1: {
+                    backgroundColor: '#0a0a09',
+                    color: 'white',
+                },
+                toolbar2: {
+                    backgroundColor: '#2f2f2b',
+                    color: 'white',
+                    height: '150px',
+                    marginBottom: '7px',
+                },
+                button1: {
+                    width: '100%',
+                    backgroundColor: '#0a0a09',
+                    color: 'white',
+                    '&:hover': { backgroundColor: '#2f2f2b' },
+                },
+                button2: {
+                    width: '100%',
+                    backgroundColor: '#2f2f2b',
+                    color: 'white',
+                    height: '45px',
+                    '&:hover': { backgroundColor: '#0a0a09' },
+                },
+                typography: {
+                    fontSize: '21px',
+                    fontWeight: 600,
+                },
+            },
+        },
+    },
+    {
+        course: {
             classPrefix: 'card5',
             title: 'Курс (очно)',
             name: '«Асистент / помічник керівника»',
             start: 'На вибір',
             group: 'з другом -20%',
-            indiv: '8800 грн',
+            indiv: '7800 грн',
             hours: '30 академічних годин',
             discount: 'Знижка від 7% до 20%',
             teacher: 'Викладач: Григорєва Людмила',
@@ -404,7 +461,7 @@ const courses = [
             start: 'На вибір',
             group: 'з другом -20%',
             indiv: '9800 грн',
-            hours: '34 академічні години',
+            hours: '38 академічних годин',
             discount: 'Знижка від 7% до 20%',
             teacher: 'Викладач: Григорєва Людмила',
             proviso0: '*Знижка 7% - за довідкою ВПО',
@@ -492,6 +549,54 @@ const courses = [
     },
     {
         course: {
+            classPrefix: 'card16',
+            title: 'Курс (очно)',
+            name: '«Користувач ПК»',
+            start: 'На вибір',
+            group: 'з другом -20%',
+            indiv: '250 грн',
+            hours: '1 академічна година',
+            discount: 'Знижка 7%',
+            teacher: 'Викладач: Лоік Інна Володимирівна',
+            proviso3: '*Знижка 7% - за довідкою ВПО',
+            program: 'Програма навчання',
+            order: 'Записатись',
+            courseProgram: [
+                'Індивідуальна програма для кожного учня',
+            ],
+            makeStyles: {
+                toolbar1: {
+                    backgroundColor: '#7e1594',
+                    color: 'white',
+                },
+                toolbar2: {
+                    backgroundColor: '#a043eb',
+                    color: 'white',
+                    height: '150px',
+                    marginBottom: '7px',
+                },
+                button1: {
+                    width: '100%',
+                    backgroundColor: '#7e1594',
+                    color: 'white',
+                    '&:hover': { backgroundColor: '#a043eb' },
+                },
+                button2: {
+                    width: '100%',
+                    backgroundColor: '#a043eb',
+                    color: 'white',
+                    height: '45px',
+                    '&:hover': { backgroundColor: '#7e1594' },
+                },
+                typography: {
+                    fontSize: '17px',
+                    fontWeight: 600,
+                },
+            },
+        },
+    },
+    {
+        course: {
             classPrefix: 'card7',
             title: 'Курс (очно)',
             name: '«1C-8 Бухгалтерія для України»',
@@ -500,7 +605,7 @@ const courses = [
             indiv: '6700 грн',
             hours: '20 академічних годин',
             discount: 'Знижка від 7% до 20%',
-            teacher: 'Викладач: Лоік Інна',
+            teacher: 'Викладач: Лоік Інна Володимирівна',
             proviso0: '*Знижка 7% - за довідкою ВПО',
             proviso1: '*Знижка 10% - при оплаті повної вартості курсу одним платежем',
             proviso2: '*Знижка 20% - при одночасному записі 2-х і більше слухачів',
@@ -530,6 +635,65 @@ const courses = [
             ],
             makeStyles: {
                 toolbar1: {
+                    backgroundColor: '#0a0a09',
+                    color: 'white',
+                },
+                toolbar2: {
+                    backgroundColor: '#2f2f2b',
+                    color: 'white',
+                    height: '150px',
+                    marginBottom: '7px',
+                },
+                button1: {
+                    width: '100%',
+                    backgroundColor: '#0a0a09',
+                    color: 'white',
+                    '&:hover': { backgroundColor: '#2f2f2b' },
+                },
+                button2: {
+                    width: '100%',
+                    backgroundColor: '#2f2f2b',
+                    color: 'white',
+                    height: '45px',
+                    '&:hover': { backgroundColor: '#0a0a09' },
+                },
+                typography: {
+                    fontSize: '17px',
+                    fontWeight: 600,
+                },
+            },
+        },
+    },
+    {
+        course: {
+            classPrefix: 'card8',
+            title: 'Курс (очно)',
+            name: '«1С-8 Кадровий облік та зарплата»',
+            start: 'На вибір',
+            group: 'з другом -20%',
+            indiv: '3100 грн',
+            hours: '10 академічних годин',
+            discount: 'Знижка від 7% до 20%',
+            teacher: 'Викладач: Лоік Інна Володимирівна',
+            proviso0: '*Знижка 7% - за довідкою ВПО',
+            proviso1: '*Знижка 10% - при оплаті повної вартості курсу одним платежем',
+            proviso2: '*Знижка 20% - при одночасному записі 2-х і більше слухачів',
+            program: 'Програма навчання',
+            order: 'Записатись',
+            courseProgram: [
+                'Характеристика концепції системи 1C: Підприємство 8, загальний механізм і принципи функціонування',
+                'Налаштування конфігурації на облік в конкретній фірмі, створення інформаційних баз інформації про  підприємство та  його структуру, правильний початок роботи',
+                'Інтерфейс, меню програми. Основні елементи системи (константи, плани рахунків, довідники, журнали документів, звітність) та правила роботи з ними',
+                'Довідники, їх види, заповнення довідників',
+                'Документи, їх заповнення,необхідна послідовність операцій',
+                'Кадровий облік, створення нового співробітника, заповнення особистих даних,  прийняття на роботу',
+                'Кадрові документи (наказ на переведення на іншу роботу, наказ на звільнення, особові картки, інші)',
+                'Облік розрахунків за заробітною платою (нарахування та виплата заробітної плати,  сплата податків на заробітну плату)',
+                'Звіти, особисті формування, заповнення звітністі',
+                'Формування регламентованих звітів',
+            ],
+            makeStyles: {
+                toolbar1: {
                     backgroundColor: '#7e1594',
                     color: 'white',
                 },
@@ -553,7 +717,7 @@ const courses = [
                     '&:hover': { backgroundColor: '#7e1594' },
                 },
                 typography: {
-                    fontSize: '21px',
+                    fontSize: '17px',
                     fontWeight: 600,
                 },
             },
@@ -561,31 +725,20 @@ const courses = [
     },
     {
         course: {
-            classPrefix: 'card8',
+            classPrefix: 'card17',
             title: 'Курс (очно)',
-            name: '«1С-8 Кадровий облік та зарплата»',
+            name: '«BAS підприємство КОРП»',
             start: 'На вибір',
             group: 'з другом -20%',
-            indiv: '3100 грн',
-            hours: '10 академічних годин',
-            discount: 'Знижка від 7% до 20%',
-            teacher: 'Викладач: Лоік Інна',
-            proviso0: '*Знижка 7% - за довідкою ВПО',
-            proviso1: '*Знижка 10% - при оплаті повної вартості курсу одним платежем',
-            proviso2: '*Знижка 20% - при одночасному записі 2-х і більше слухачів',
+            indiv: '6100 грн',
+            hours: '30 академічних годин',
+            discount: 'Знижка 7%',
+            teacher: 'Викладач: Лоік Інна Володимирівна',
+            proviso3: '*Знижка 7% - за довідкою ВПО',
             program: 'Програма навчання',
             order: 'Записатись',
             courseProgram: [
-                'Характеристика концепції системи 1C: Підприємство 8, загальний механізм і принципи функціонування',
-                'Налаштування конфігурації на облік в конкретній фірмі, створення інформаційних баз інформації про  підприємство та  його структуру, правильний початок роботи',
-                'Інтерфейс, меню програми. Основні елементи системи (константи, плани рахунків, довідники, журнали документів, звітність) та правила роботи з ними',
-                'Довідники, їх види, заповнення довідників',
-                'Документи, їх заповнення,необхідна послідовність операцій',
-                'Кадровий облік, створення нового співробітника, заповнення особистих даних,  прийняття на роботу',
-                'Кадрові документи (наказ на переведення на іншу роботу, наказ на звільнення, особові картки, інші)',
-                'Облік розрахунків за заробітною платою (нарахування та виплата заробітної плати,  сплата податків на заробітну плату)',
-                'Звіти, особисті формування, заповнення звітністі',
-                'Формування регламентованих звітів',
+                'Індивідуальна програма для кожного учня',
             ],
             makeStyles: {
                 toolbar1: {
@@ -612,7 +765,247 @@ const courses = [
                     '&:hover': { backgroundColor: '#0a0a09' },
                 },
                 typography: {
-                    fontSize: '21px',
+                    fontSize: '17px',
+                    fontWeight: 600,
+                },
+            },
+        },
+    },
+    {
+        course: {
+            classPrefix: 'card18',
+            title: 'Курс (очно)',
+            name: '«BAS кадри (з оновленим військовим обліком)»',
+            start: 'На вибір',
+            group: 'з другом -20%',
+            indiv: '5100 грн',
+            hours: '20 академічних годин',
+            discount: 'Знижка 7%',
+            teacher: 'Викладач: Лоік Інна Володимирівна',
+            proviso3: '*Знижка 7% - за довідкою ВПО',
+            program: 'Програма навчання',
+            order: 'Записатись',
+            courseProgram: [
+                'Індивідуальна програма для кожного учня',
+            ],
+            makeStyles: {
+                toolbar1: {
+                    backgroundColor: '#7e1594',
+                    color: 'white',
+                },
+                toolbar2: {
+                    backgroundColor: '#a043eb',
+                    color: 'white',
+                    height: '150px',
+                    marginBottom: '7px',
+                },
+                button1: {
+                    width: '100%',
+                    backgroundColor: '#7e1594',
+                    color: 'white',
+                    '&:hover': { backgroundColor: '#a043eb' },
+                },
+                button2: {
+                    width: '100%',
+                    backgroundColor: '#a043eb',
+                    color: 'white',
+                    height: '45px',
+                    '&:hover': { backgroundColor: '#7e1594' },
+                },
+                typography: {
+                    fontSize: '17px',
+                    fontWeight: 600,
+                },
+            },
+        },
+    },
+    {
+        course: {
+            classPrefix: 'card13',
+            title: 'Консультація(очно)',
+            name: '«Консультація РРО / ПРРО»',
+            start: 'На вибір',
+            group: 'з другом -20%',
+            indiv: '500 грн',
+            hours: '1 академічна година',
+            discount: 'Знижка 7%',
+            teacher: 'Викладач: Лоік Інна Володимирівна',
+            proviso3: '*Знижка 7% - за довідкою ВПО',
+            program: 'Програма навчання',
+            order: 'Записатись',
+            courseProgram: [
+                'Індивідуальна програма для кожного учня',
+            ],
+            makeStyles: {
+                toolbar1: {
+                    backgroundColor: '#0a0a09',
+                    color: 'white',
+                },
+                toolbar2: {
+                    backgroundColor: '#2f2f2b',
+                    color: 'white',
+                    height: '150px',
+                    marginBottom: '7px',
+                },
+                button1: {
+                    width: '100%',
+                    backgroundColor: '#0a0a09',
+                    color: 'white',
+                    '&:hover': { backgroundColor: '#2f2f2b' },
+                },
+                button2: {
+                    width: '100%',
+                    backgroundColor: '#2f2f2b',
+                    color: 'white',
+                    height: '45px',
+                    '&:hover': { backgroundColor: '#0a0a09' },
+                },
+                typography: {
+                    fontSize: '17px',
+                    fontWeight: 600,
+                },
+            },
+        },
+    },
+    {
+        course: {
+            classPrefix: 'card14',
+            title: 'Консультація (очно)',
+            name: '«Техніка безпеки та охорона праці»',
+            start: 'На вибір',
+            group: 'з другом -20%',
+            indiv: '500 грн',
+            hours: '1 академічна година',
+            discount: 'Знижка 7%',
+            teacher: 'Викладач: Миронова Ірина',
+            proviso3: '*Знижка 7% - за довідкою ВПО',
+            program: 'Програма навчання',
+            order: 'Записатись',
+            courseProgram: [
+                'Індивідуальна програма для кожного учня',
+            ],
+            makeStyles: {
+                toolbar1: {
+                    backgroundColor: '#7e1594',
+                    color: 'white',
+                },
+                toolbar2: {
+                    backgroundColor: '#a043eb',
+                    color: 'white',
+                    height: '150px',
+                    marginBottom: '7px',
+                },
+                button1: {
+                    width: '100%',
+                    backgroundColor: '#7e1594',
+                    color: 'white',
+                    '&:hover': { backgroundColor: '#a043eb' },
+                },
+                button2: {
+                    width: '100%',
+                    backgroundColor: '#a043eb',
+                    color: 'white',
+                    height: '45px',
+                    '&:hover': { backgroundColor: '#7e1594' },
+                },
+                typography: {
+                    fontSize: '17px',
+                    fontWeight: 600,
+                },
+            },
+        },
+    },
+    {
+        course: {
+            classPrefix: 'card15',
+            title: 'Консультація (очно)',
+            name: '«Консультація (будь-яка тема)»',
+            start: 'На вибір',
+            group: 'з другом -20%',
+            indiv: '700 грн',
+            hours: '1 академічна година',
+            discount: 'Знижка 7%',
+            teacher: 'Викладач: Григорєва Людмила',
+            proviso3: '*Знижка 7% - за довідкою ВПО',
+            program: 'Програма навчання',
+            order: 'Записатись',
+            courseProgram: [
+                'Очна консультація згідно запиту кліента',
+            ],
+            makeStyles: {
+                toolbar1: {
+                    backgroundColor: '#0a0a09',
+                    color: 'white',
+                },
+                toolbar2: {
+                    backgroundColor: '#2f2f2b',
+                    color: 'white',
+                    height: '150px',
+                    marginBottom: '7px',
+                },
+                button1: {
+                    width: '100%',
+                    backgroundColor: '#0a0a09',
+                    color: 'white',
+                    '&:hover': { backgroundColor: '#2f2f2b' },
+                },
+                button2: {
+                    width: '100%',
+                    backgroundColor: '#2f2f2b',
+                    color: 'white',
+                    height: '45px',
+                    '&:hover': { backgroundColor: '#0a0a09' },
+                },
+                typography: {
+                    fontSize: '17px',
+                    fontWeight: 600,
+                },
+            },
+        },
+    },
+    {
+        course: {
+            classPrefix: 'card13',
+            title: 'Курс (очно)',
+            name: '«M.E.Doc »',
+            start: 'На вибір',
+            group: 'з другом -20%',
+            indiv: '3300 грн',
+            hours: '12 академічних годин',
+            discount: 'Знижка 7%',
+            teacher: 'Викладач: Лоік Інна Володимирівна',
+            proviso3: '*Знижка 7% - за довідкою ВПО',
+            program: 'Програма навчання',
+            order: 'Записатись',
+            courseProgram: [
+                'Індивідуальна програма для кожного учня',
+            ],
+            makeStyles: {
+                toolbar1: {
+                    backgroundColor: '#7e1594',
+                    color: 'white',
+                },
+                toolbar2: {
+                    backgroundColor: '#a043eb',
+                    color: 'white',
+                    height: '150px',
+                    marginBottom: '7px',
+                },
+                button1: {
+                    width: '100%',
+                    backgroundColor: '#7e1594',
+                    color: 'white',
+                    '&:hover': { backgroundColor: '#a043eb' },
+                },
+                button2: {
+                    width: '100%',
+                    backgroundColor: '#a043eb',
+                    color: 'white',
+                    height: '45px',
+                    '&:hover': { backgroundColor: '#7e1594' },
+                },
+                typography: {
+                    fontSize: '17px',
                     fontWeight: 600,
                 },
             },
@@ -867,430 +1260,6 @@ const courses = [
         },
 
     },
-    {
-        course: {
-            classPrefix: 'card13',
-            title: 'Консультація(очно)',
-            name: '«Консультація РРО / ПРРО»',
-            start: 'На вибір',
-            group: 'з другом -20%',
-            indiv: '500 грн',
-            hours: '1 академічна година',
-            discount: 'Знижка 7%',
-            teacher: 'Викладач: Григорєва Людмила',
-            proviso3: '*Знижка 7% - за довідкою ВПО',
-            program: 'Програма навчання',
-            order: 'Записатись',
-            courseProgram: [
-                'Індивідуальна програма для кожного учня',
-            ],
-            makeStyles: {
-                toolbar1: {
-                    backgroundColor: '#0a0a09',
-                    color: 'white',
-                },
-                toolbar2: {
-                    backgroundColor: '#2f2f2b',
-                    color: 'white',
-                    height: '150px',
-                    marginBottom: '7px',
-                },
-                button1: {
-                    width: '100%',
-                    backgroundColor: '#0a0a09',
-                    color: 'white',
-                    '&:hover': { backgroundColor: '#2f2f2b' },
-                },
-                button2: {
-                    width: '100%',
-                    backgroundColor: '#2f2f2b',
-                    color: 'white',
-                    height: '45px',
-                    '&:hover': { backgroundColor: '#0a0a09' },
-                },
-                typography: {
-                    fontSize: '17px',
-                    fontWeight: 600,
-                },
-            },
-        },
-    },{
-        course: {
-            classPrefix: 'card14',
-            title: 'Консультація (очно)',
-            name: '«Техніка безпеки та охорона праці»',
-            start: 'На вибір',
-            group: 'з другом -20%',
-            indiv: '500 грн',
-            hours: '1 академічна година',
-            discount: 'Знижка 7%',
-            teacher: 'Викладач: Миронова Ірина',
-            proviso3: '*Знижка 7% - за довідкою ВПО',
-            program: 'Програма навчання',
-            order: 'Записатись',
-            courseProgram: [
-                'Індивідуальна програма для кожного учня',
-            ],
-            makeStyles: {
-                toolbar1: {
-                    backgroundColor: '#7e1594',
-                    color: 'white',
-                },
-                toolbar2: {
-                    backgroundColor: '#a043eb',
-                    color: 'white',
-                    height: '150px',
-                    marginBottom: '7px',
-                },
-                button1: {
-                    width: '100%',
-                    backgroundColor: '#7e1594',
-                    color: 'white',
-                    '&:hover': { backgroundColor: '#a043eb' },
-                },
-                button2: {
-                    width: '100%',
-                    backgroundColor: '#a043eb',
-                    color: 'white',
-                    height: '45px',
-                    '&:hover': { backgroundColor: '#7e1594' },
-                },
-                typography: {
-                    fontSize: '17px',
-                    fontWeight: 600,
-                },
-            },
-        },
-    },{
-        course: {
-            classPrefix: 'card15',
-            title: 'Курс (очно)',
-            name: '«M.E.Doc »',
-            start: 'На вибір',
-            group: 'з другом -20%',
-            indiv: '3300 грн',
-            hours: '10 академічних годин',
-            discount: 'Знижка 7%',
-            teacher: 'Викладач: Лоік Інна',
-            proviso3: '*Знижка 7% - за довідкою ВПО',
-            program: 'Програма навчання',
-            order: 'Записатись',
-            courseProgram: [
-                'Індивідуальна програма для кожного учня',
-            ],
-            makeStyles: {
-                toolbar1: {
-                    backgroundColor: '#0a0a09',
-                    color: 'white',
-                },
-                toolbar2: {
-                    backgroundColor: '#2f2f2b',
-                    color: 'white',
-                    height: '150px',
-                    marginBottom: '7px',
-                },
-                button1: {
-                    width: '100%',
-                    backgroundColor: '#0a0a09',
-                    color: 'white',
-                    '&:hover': { backgroundColor: '#2f2f2b' },
-                },
-                button2: {
-                    width: '100%',
-                    backgroundColor: '#2f2f2b',
-                    color: 'white',
-                    height: '45px',
-                    '&:hover': { backgroundColor: '#0a0a09' },
-                },
-                typography: {
-                    fontSize: '17px',
-                    fontWeight: 600,
-                },
-            },
-        },
-    },{
-        course: {
-            classPrefix: 'card16',
-            title: 'Курс (очно)',
-            name: '«Користувач ПК»',
-            start: 'На вибір',
-            group: 'з другом -20%',
-            indiv: '250грн / ак.год.',
-            hours: '15-30 академічних годин',
-            discount: 'Знижка 7%',
-            teacher: 'Викладач: Лоік Інна',
-            proviso3: '*Знижка 7% - за довідкою ВПО',
-            program: 'Програма навчання',
-            order: 'Записатись',
-            courseProgram: [
-                'Індивідуальна програма для кожного учня',
-            ],
-            makeStyles: {
-                toolbar1: {
-                    backgroundColor: '#7e1594',
-                    color: 'white',
-                },
-                toolbar2: {
-                    backgroundColor: '#a043eb',
-                    color: 'white',
-                    height: '150px',
-                    marginBottom: '7px',
-                },
-                button1: {
-                    width: '100%',
-                    backgroundColor: '#7e1594',
-                    color: 'white',
-                    '&:hover': { backgroundColor: '#a043eb' },
-                },
-                button2: {
-                    width: '100%',
-                    backgroundColor: '#a043eb',
-                    color: 'white',
-                    height: '45px',
-                    '&:hover': { backgroundColor: '#7e1594' },
-                },
-                typography: {
-                    fontSize: '17px',
-                    fontWeight: 600,
-                },
-            },
-        },
-    },{
-        course: {
-            classPrefix: 'card17',
-            title: 'Курс (очно)',
-            name: '«BAS підприємство КОРП»',
-            start: 'На вибір',
-            group: 'з другом -20%',
-            indiv: '250грн / ак.год.',
-            hours: '15-30 академічних годин',
-            discount: 'Знижка 7%',
-            teacher: 'Викладач: Лоік Інна',
-            proviso3: '*Знижка 7% - за довідкою ВПО',
-            program: 'Програма навчання',
-            order: 'Записатись',
-            courseProgram: [
-                'Індивідуальна програма для кожного учня',
-            ],
-            makeStyles: {
-                toolbar1: {
-                    backgroundColor: '#7e1594',
-                    color: 'white',
-                },
-                toolbar2: {
-                    backgroundColor: '#a043eb',
-                    color: 'white',
-                    height: '150px',
-                    marginBottom: '7px',
-                },
-                button1: {
-                    width: '100%',
-                    backgroundColor: '#7e1594',
-                    color: 'white',
-                    '&:hover': { backgroundColor: '#a043eb' },
-                },
-                button2: {
-                    width: '100%',
-                    backgroundColor: '#a043eb',
-                    color: 'white',
-                    height: '45px',
-                    '&:hover': { backgroundColor: '#7e1594' },
-                },
-                typography: {
-                    fontSize: '17px',
-                    fontWeight: 600,
-                },
-            },
-        },
-    },{
-        course: {
-            classPrefix: 'card18',
-            title: 'Курс (очно)',
-            name: '«BAS кадри»',
-            start: 'На вибір',
-            group: 'з другом -20%',
-            indiv: '250грн / ак.год.',
-            hours: '15-30 академічних годин',
-            discount: 'Знижка 7%',
-            teacher: 'Викладач: Лоік Інна',
-            proviso3: '*Знижка 7% - за довідкою ВПО',
-            program: 'Програма навчання',
-            order: 'Записатись',
-            courseProgram: [
-                'Індивідуальна програма для кожного учня',
-            ],
-            makeStyles: {
-                toolbar1: {
-                    backgroundColor: '#7e1594',
-                    color: 'white',
-                },
-                toolbar2: {
-                    backgroundColor: '#a043eb',
-                    color: 'white',
-                    height: '150px',
-                    marginBottom: '7px',
-                },
-                button1: {
-                    width: '100%',
-                    backgroundColor: '#7e1594',
-                    color: 'white',
-                    '&:hover': { backgroundColor: '#a043eb' },
-                },
-                button2: {
-                    width: '100%',
-                    backgroundColor: '#a043eb',
-                    color: 'white',
-                    height: '45px',
-                    '&:hover': { backgroundColor: '#7e1594' },
-                },
-                typography: {
-                    fontSize: '17px',
-                    fontWeight: 600,
-                },
-            },
-        },
-    },
-    {
-        course: {
-            classPrefix: 'card19',
-            title: 'Курс (очно)',
-            name: '«BAS кадри»',
-            start: 'На вибір',
-            group: 'з другом -20%',
-            indiv: '250грн / ак.год.',
-            hours: '15-30 академічних годин',
-            discount: 'Знижка 7%',
-            proviso3: '*Знижка 7% - за довідкою ВПО',
-            program: 'Програма навчання',
-            order: 'Записатись',
-            courseProgram: [
-                'Індивідуальна програма для кожного учня',
-            ],
-            makeStyles: {
-                toolbar1: {
-                    backgroundColor: '#7e1594',
-                    color: 'white',
-                },
-                toolbar2: {
-                    backgroundColor: '#a043eb',
-                    color: 'white',
-                    height: '150px',
-                    marginBottom: '7px',
-                },
-                button1: {
-                    width: '100%',
-                    backgroundColor: '#7e1594',
-                    color: 'white',
-                    '&:hover': { backgroundColor: '#a043eb' },
-                },
-                button2: {
-                    width: '100%',
-                    backgroundColor: '#a043eb',
-                    color: 'white',
-                    height: '45px',
-                    '&:hover': { backgroundColor: '#7e1594' },
-                },
-                typography: {
-                    fontSize: '17px',
-                    fontWeight: 600,
-                },
-            },
-        },
-    },
-    {
-        course: {
-            classPrefix: 'card20',
-            title: 'Курс (очно)',
-            name: '«BAS кадри»',
-            start: 'На вибір',
-            group: 'з другом -20%',
-            indiv: '250грн / ак.год.',
-            hours: '15-30 академічних годин',
-            discount: 'Знижка 7%',
-            proviso3: '*Знижка 7% - за довідкою ВПО',
-            program: 'Програма навчання',
-            order: 'Записатись',
-            courseProgram: [
-                'Індивідуальна програма для кожного учня',
-            ],
-            makeStyles: {
-                toolbar1: {
-                    backgroundColor: '#7e1594',
-                    color: 'white',
-                },
-                toolbar2: {
-                    backgroundColor: '#a043eb',
-                    color: 'white',
-                    height: '150px',
-                    marginBottom: '7px',
-                },
-                button1: {
-                    width: '100%',
-                    backgroundColor: '#7e1594',
-                    color: 'white',
-                    '&:hover': { backgroundColor: '#a043eb' },
-                },
-                button2: {
-                    width: '100%',
-                    backgroundColor: '#a043eb',
-                    color: 'white',
-                    height: '45px',
-                    '&:hover': { backgroundColor: '#7e1594' },
-                },
-                typography: {
-                    fontSize: '17px',
-                    fontWeight: 600,
-                },
-            },
-        },
-    },
-    {
-        course: {
-            classPrefix: 'card21',
-            title: 'Курс (очно)',
-            name: '«BAS кадри»',
-            start: 'На вибір',
-            group: 'з другом -20%',
-            indiv: '250грн / ак.год.',
-            hours: '15-30 академічних годин',
-            discount: 'Знижка 7%',
-            proviso3: '*Знижка 7% - за довідкою ВПО',
-            program: 'Програма навчання',
-            order: 'Записатись',
-            courseProgram: [
-                'Індивідуальна програма для кожного учня',
-            ],
-            makeStyles: {
-                toolbar1: {
-                    backgroundColor: '#7e1594',
-                    color: 'white',
-                },
-                toolbar2: {
-                    backgroundColor: '#a043eb',
-                    color: 'white',
-                    height: '150px',
-                    marginBottom: '7px',
-                },
-                button1: {
-                    width: '100%',
-                    backgroundColor: '#7e1594',
-                    color: 'white',
-                    '&:hover': { backgroundColor: '#a043eb' },
-                },
-                button2: {
-                    width: '100%',
-                    backgroundColor: '#a043eb',
-                    color: 'white',
-                    height: '45px',
-                    '&:hover': { backgroundColor: '#7e1594' },
-                },
-                typography: {
-                    fontSize: '17px',
-                    fontWeight: 600,
-                },
-            },
-        },
-    },
 ]
 
 const Schedule1 = () => {
@@ -1423,35 +1392,35 @@ const Schedule4 = () => {
 };
 
 
-// const Schedule5 = () => {
-//     const classes = useStyles();
+const Schedule5 = () => {
+    const classes = useStyles();
 
-//     return (
-//         <div className="schedule">
-//             <Container maxWidth="lg" className={classes.container}>
-//                 <Grid
-//                     container
-//                     direction="row"
-//                     alignItems="center"
-//                     spacing={3}
-//                     className={classes.grid}
-//                 >
-//                     <Grid item>
-//                         <ScheduleItem courses={courses} course={courses[16].course} />
-//                     </Grid>
-//                     <Grid item>
-//                         <ScheduleItem courses={courses} course={courses[17].course} />
-//                     </Grid>
-//                     <Grid item>
-//                         <ScheduleItem courses={courses} course={courses[18].course} />
-//                     </Grid>
-//                     <Grid item>
-//                         <ScheduleItem courses={courses} course={courses[19].course} />
-//                     </Grid>
-//                 </ Grid>
-//             </Container>
-//         </div>
-//     );
-// };
+    return (
+        <div className="schedule">
+            <Container maxWidth="lg" className={classes.container}>
+                <Grid
+                    container
+                    direction="row"
+                    alignItems="center"
+                    spacing={3}
+                    className={classes.grid}
+                >
+                    <Grid item>
+                        <ScheduleItem courses={courses} course={courses[16].course} />
+                    </Grid>
+                    <Grid item>
+                        <ScheduleItem courses={courses} course={courses[17].course} />
+                    </Grid>
+                    <Grid item>
+                        <ScheduleItem courses={courses} course={courses[18].course} />
+                    </Grid>
+                    <Grid item>
+                        <ScheduleItem courses={courses} course={courses[19].course} />
+                    </Grid>
+                </ Grid>
+            </Container>
+        </div>
+    );
+};
 
-export { Schedule1, Schedule2, Schedule3, Schedule4 }
+export { Schedule1, Schedule2, Schedule3, Schedule4, Schedule5 }

@@ -23,6 +23,7 @@ const App = () => {
                 <Schedule2 />
                 <Schedule3 />
                 <Schedule4 />
+                <Schedule5 />
                 <Seminars />
                 <Certificate />
                 <Students />
