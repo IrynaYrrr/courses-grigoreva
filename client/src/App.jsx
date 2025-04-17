@@ -11,7 +11,7 @@ import Reviews from './components/reviews/Reviews';
 import Students from './components/students/Students';
 
 const App = () => {
-    const [menuOpen, setMenuOpen] = useState(true);
+    const [menuOpen, setMenuOpen] = useState(false);
 
     return (
         <div className="app">
