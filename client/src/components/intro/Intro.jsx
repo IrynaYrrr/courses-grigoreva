@@ -6,7 +6,7 @@ const Intro = () => {
     <div className="intro" id="intro">
       <div className="container">
         <div className="teacher-photo">
-          <img src="assets/lp2photo25.jpg" alt="Фото викладача" />
+          <img src="assets/lpphoto25-2.jpg" alt="Фото викладача" />
         </div>
       </div>
 
