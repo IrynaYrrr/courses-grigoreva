@@ -18,7 +18,7 @@ const Menu = ({ menuOpen, setMenuOpen }) => {
                 </li>
 
                 <li onClick={() => setMenuOpen(false)}>
-                    <a href="#certificate">Сертифікат</a>
+                    <a href="#certificate">Диплом</a>
                 </li>
 
                 <li onClick={() => setMenuOpen(false)} >

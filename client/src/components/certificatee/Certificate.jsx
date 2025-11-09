@@ -24,7 +24,7 @@ const Certificate = () => {
                          1.Записуєтесь на курс,
                          2.Відвідуєте заняття,
                          3.Складаєте підсумковий іспит,
-                         4.Отримуєте сертифікат,
+                         4.Отримуєте диплом,
                          5.Додаєте навички в резюме,
                          6.Використовуєте знання на роботі"
                     />
@@ -38,7 +38,7 @@ const Certificate = () => {
                             <Filter1Icon /> <li><CheckIcon /> Записуєтесь на курс</li>
                             <Filter2Icon /> <li><CheckIcon /> Відвідуєте заняття</li>
                             <Filter3Icon /> <li><CheckIcon /> Складаєте підсумковий іспит</li>
-                            <Filter4Icon /> <li><CheckIcon /> Отримуєте сертифікат</li>
+                            <Filter4Icon /> <li><CheckIcon /> Отримуєте диплом</li>
                             <Filter5Icon /> <li><CheckIcon /> Додаєте навички в резюме</li>
                             <Filter6Icon /> <li><CheckIcon /> Використовуєте знання на роботі</li>
                         </ul>
@@ -48,8 +48,8 @@ const Certificate = () => {
 
             <div className="right">
                 <img className="diploma"
-                     src="assets/certificate.png"
-                     alt="Фотокартка сертифіката"
+                     src="assets/diploma.png"
+                     alt="Фотокартка диплома після завершення курсу"
                 />
             </div>
         </div>

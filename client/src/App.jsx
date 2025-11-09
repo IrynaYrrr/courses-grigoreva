@@ -4,7 +4,7 @@ import Intro from './components/intro/Intro'
 import Topbar from './components/topbar/Topbar'
 import Menu from './components/menu/Menu'
 import Contacts from './components/contacts/Contacts'
-import {Schedule1, Schedule2, Schedule3, Schedule4, Schedule5} from './components/schedule/Schedule'
+import {Schedule1, Schedule2, Schedule3, Schedule4, Schedule5, Schedule6, Schedule7, Schedule8 } from './components/schedule/Schedule'
 import Certificate from './components/certificatee/Certificate';
 import Seminars from './components/seminars1/Seminars';
 import Reviews from './components/reviews/Reviews';
@@ -24,6 +24,9 @@ const App = () => {
                 <Schedule3 />
                 <Schedule4 />
                 <Schedule5 />
+                <Schedule6 />
+                <Schedule7 />
+                <Schedule8 />
                 <Seminars />
                 <Certificate />
                 <Students />
